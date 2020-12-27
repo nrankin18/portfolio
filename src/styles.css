@@ -301,3 +301,65 @@ nav a:hover {
 .objectives li:before {
   content: "- ";
 }
+
+.skills {
+  margin: 25px 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skills img {
+  padding: 15px 20px;
+  width: 50px;
+}
+
+.skill:hover .bubble {
+  opacity: 1;
+}
+
+.skill {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bubble {
+  position: absolute;
+  bottom: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  padding: 0 15px 0 15px;
+  text-align: center;
+  background: #000000;
+  border-radius: 0.4em;
+}
+
+.bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #000000;
+  border-bottom: 0;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.bubble p {
+  margin: 3px 5px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+}

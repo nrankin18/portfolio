@@ -2,7 +2,9 @@ import React from "react";
 import "../styles.css";
 import Headshot from "../img/headshot.png";
 import Company from "./Company";
+import Skill from "./Skill";
 import { companies } from "../util/companies.js";
+import { skills } from "../util/skills.js";
 
 class Home extends React.Component {
   render() {
@@ -71,7 +73,17 @@ class Home extends React.Component {
           <span class="html-tag">{"</h3>"}</span>
         </h3>
         <div class="subline"></div>
-        <div class="skills"></div>
+        <div class="skills">
+          {skills.map((skillGroup) => {
+            return (
+              <div>
+                {skillGroup.map((skill) => {
+                  return <Skill name={skill.name} icon={skill.icon} />;
+                })}
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }
