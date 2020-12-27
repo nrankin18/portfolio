@@ -1,12 +1,12 @@
 import React from "react";
-import Logo from "../img/icon.png";
+import Logo from "../img/logo.png";
 import "../styles.css";
 
-class Home extends React.Component {
+class Header extends React.Component {
   render() {
     return (
       <div class="header">
-        <img class="icon" src={Logo} />
+        <img class="logo" src={Logo} />
         <nav class="nav">
           <ul>
             <li class="nav-item">
@@ -15,7 +15,7 @@ class Home extends React.Component {
             <li class="nav-item">
               <a href="">Experience</a>
             </li>
-            <li class="icon-spacer"></li>
+            <li class="logo-spacer"></li>
             <li class="nav-item">
               <a href="">Aviation</a>
             </li>
@@ -29,4 +29,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Header;

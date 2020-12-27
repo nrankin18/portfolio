@@ -20,7 +20,7 @@ body {
   background-color: #000000dd;
 }
 
-.icon {
+.logo {
   position: fixed;
   width: 110px;
   top: 20px;
@@ -32,8 +32,7 @@ nav > ul {
   margin: 0 7% 0 7%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly
-  ;
+  justify-content: space-evenly;
   min-height: 75px;
   height: auto;
 }
@@ -74,6 +73,51 @@ nav a:hover {
   color: #fff;
 }
 
-.icon-spacer {
-    width: 110px;
+.logo-spacer {
+  width: 110px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 35px;
+  background-color: black;
+  height: 85px;
+  width: 100%;
+  color: white;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+}
+
+/* Home */
+.home {
+  min-height: calc(100vh - 120px);
+}
+
+.footer a {
+  color: white;
+}
+
+.copyright {
+  margin-left: 4%;
+  width: 100%;
+}
+
+.connect {
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.connect img {
+  width: 45px;
+}
+
+.connect a {
+  padding: 0 15px;
+  white-space: nowrap;
+  text-decoration: underline;
+  font-size: 1.5em;
 }
