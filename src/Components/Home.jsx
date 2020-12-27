@@ -5,6 +5,7 @@ import Company from "./Company";
 import Skill from "./Skill";
 import { companies } from "../util/companies.js";
 import { skills } from "../util/skills.js";
+import { projects } from "../util/projects.js";
 
 import BCLogo from "../img/logos/bc.png";
 import USMLogo from "../img/logos/usm.png";
@@ -93,6 +94,18 @@ class Home extends React.Component {
           <span class="html-tag">{"</h3>"}</span>
         </h3>
         <div class="subline"></div>
+        <div class="projects">
+          {projects.map((project) => {
+            return (
+              <div class="project">
+                <img src={project.images[0]} />
+                <div class="screen">
+                  <p>{project.name}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
         <h3 class="subsection">
           <span class="html-tag">{"<h3>"}</span>
           <span class="section-text">Education</span>

@@ -106,15 +106,24 @@ nav a:hover {
   justify-content: flex-end;
 }
 
+.connect img:hover {
+  transform: scale(1.2);
+}
+
 .connect img {
   width: 45px;
+  transition: all 0.2s;
 }
 
 .connect a {
   padding: 0 15px;
   white-space: nowrap;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1.5em;
+}
+
+.connect a:hover {
+  text-decoration: underline;
 }
 
 /* Home */
@@ -362,4 +371,45 @@ nav a:hover {
   text-align: center;
   width: 100%;
   white-space: nowrap;
+}
+
+.projects {
+  margin: 25px 7%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 15px 20px;
+  height: 200px;
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  position: relative;
+}
+
+.projects img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project:hover .screen {
+  opacity: 1;
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.71);
+  opacity: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  transition: all 0.5s;
+}
+
+.screen:hover {
+  cursor: pointer;
 }
