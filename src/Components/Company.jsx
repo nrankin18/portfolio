@@ -13,6 +13,7 @@ class Company extends React.Component {
           <div class="company-sub">{this.props.time}</div>
           <div class="company-name">{this.props.name}</div>
           <div class="company-sub">{this.props.location}</div>
+          <div>{this.props.detail}</div>
           <ul class="positions">
             {this.props.positions.map((position) => {
               return (

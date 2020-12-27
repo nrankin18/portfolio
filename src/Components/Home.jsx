@@ -6,6 +6,9 @@ import Skill from "./Skill";
 import { companies } from "../util/companies.js";
 import { skills } from "../util/skills.js";
 
+import BCLogo from "../img/logos/bc.png";
+import USMLogo from "../img/logos/usm.png";
+
 class Home extends React.Component {
   render() {
     return (
@@ -84,6 +87,59 @@ class Home extends React.Component {
             );
           })}
         </div>
+        <h3 class="subsection">
+          <span class="html-tag">{"<h3>"}</span>
+          <span class="section-text">Projects</span>
+          <span class="html-tag">{"</h3>"}</span>
+        </h3>
+        <div class="subline"></div>
+        <h3 class="subsection">
+          <span class="html-tag">{"<h3>"}</span>
+          <span class="section-text">Education</span>
+          <span class="html-tag">{"</h3>"}</span>
+        </h3>
+        <div class="subline"></div>
+        <ul class="schools">
+          <Company
+            name="Boston College"
+            logo={BCLogo}
+            detail="Bachelor of Science - Computer Science, Minor in Physics, Minor in Music"
+            time="2018 - 2022 (expected)"
+            positions={[
+              { name: "Sophomore Scholar", objectives: [] },
+              { name: "Dean's List First Honors", objectives: [] },
+              {
+                name: "Courses include:",
+                objectives: [
+                  "Data Structures (TA)",
+                  "Computer Systems",
+                  "Logic and Computation",
+                  "Randomness and Computation",
+                  "Computer Organization",
+                  "Algorithms",
+                  "Computer Networks",
+                  "Object-Oriented Design (TA)",
+                  "Robotics",
+                  "Operating Systems",
+                  "Electricity and Magnetism",
+                  "Waves and Vibrations",
+                  "Modern Physics",
+                  "Quantum Physics",
+                  "Quantum Computing",
+                ],
+              },
+            ]}
+          />
+          <Company
+            name="University School of Milwaukee"
+            logo={USMLogo}
+            time="2004 - 2018"
+            positions={[
+              { name: "Cum Laude Society", objectives: [] },
+              { name: "Office of Naval Research ISEF Award", objectives: [] },
+            ]}
+          />
+        </ul>
       </div>
     );
   }
