@@ -6,9 +6,12 @@ import Skill from "./Skill";
 import { companies } from "../util/companies.js";
 import { skills } from "../util/skills.js";
 import { projects } from "../util/projects.js";
+import * as Scroll from "react-scroll";
 
 import BCLogo from "../img/logos/bc.png";
 import USMLogo from "../img/logos/usm.png";
+
+let Element = Scroll.Element;
 
 class Home extends React.Component {
   render() {
@@ -51,10 +54,9 @@ class Home extends React.Component {
           </p>
         </div>
         <h2 class="section">
+          <Element name="experience" />
           <span class="html-tag">{"<h2>"}</span>
-          <span class="section-text" id="experience">
-            Experience
-          </span>
+          <span class="section-text">Experience</span>
           <span class="html-tag">{"</h2>"}</span>
         </h2>
         <div class="line"></div>
