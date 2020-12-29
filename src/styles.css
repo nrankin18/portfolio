@@ -345,7 +345,7 @@ nav a:hover {
   bottom: 100%;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  padding: 0 15px 0 15px;
+  padding: 0 5px 0 5px;
   text-align: center;
   background: #000000;
   border-radius: 0.4em;
@@ -413,4 +413,13 @@ nav a:hover {
 
 .screen:hover {
   cursor: pointer;
+}
+
+#experience::before {
+  display: block;
+  content: " ";
+  margin-top: -90px;
+  height: 90px;
+  visibility: hidden;
+  pointer-events: none;
 }
