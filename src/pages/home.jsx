@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles.css";
-import Headshot from "../img/headshot.png";
 import Company from "../components/Company";
 import Skill from "../components/Skill";
 import { companies } from "../util/companies.js";
@@ -19,7 +18,10 @@ class Home extends React.Component {
       <div>
         <Header isHome={1} />
         <div class="home">
-          <div class="banner"></div>
+          <div class="banner">
+            <img src="/img/banner.png" />
+          </div>
+
           <div class="stripe"></div>
           <h1 class="greeting">
             <span class="html-tag">{"<h1>"}</span>
@@ -37,7 +39,7 @@ class Home extends React.Component {
           </span>
           <div class="line"></div>
           <div class="about">
-            <img id="headshot" src={Headshot} />
+            <img id="headshot" src="/img/headshot.png" />
             <span class="html-column">
               <span class="html-tag top">{"<p>"}</span>
               <span class="html-tag">{"</p>"}</span>
