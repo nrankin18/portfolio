@@ -779,3 +779,11 @@ nav a:hover {
 .slide-dot:hover {
   background-color: #717171;
 }
+
+.destinations {
+  max-width: 760px;
+  background: rgb(30, 30, 30);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

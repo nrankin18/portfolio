@@ -1,15 +1,23 @@
 import React from "react";
 import "../styles.css";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Slideshow from "../components/Slideshow";
-
 import { flags } from "../util/flags.js";
-
 import Map from "../components/Map";
+import { FlapDisplay } from "react-split-flap-effect";
 
 class Aviation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      board: 0,
+      boardRow1: "Chicago, IL           KMDW",
+      boardRow2: "Green Bay, WI         KGRB",
+      boardRow3: "Nantucket, MA         KACK",
+    };
+  }
+
   render() {
     return (
       <div>
@@ -61,6 +69,34 @@ class Aviation extends React.Component {
             })}
           </div>
           <Map />
+          <div class="destinations">
+            <FlapDisplay
+              chars={" ABCDEFGHIJKLMNOPQRSTUVWXYX.,-"}
+              length={26}
+              value={"       Destinations       "}
+            />
+            <FlapDisplay
+              chars={" ABCDEFGHIJKLMNOPQRSTUVWXYX.,-"}
+              length={26}
+              value={"--------------------------"}
+            />
+            <FlapDisplay
+              chars={" ABCDEFGHIJKLMNOPQRSTUVWXYX.,-"}
+              length={26}
+              value={this.state.boardRow1}
+            />
+            <FlapDisplay
+              chars={" ABCDEFGHIJKLMNOPQRSTUVWXYX.,-"}
+              length={26}
+              value={this.state.boardRow2}
+            />
+            <FlapDisplay
+              chars={" ABCDEFGHIJKLMNOPQRSTUVWXYX.,-"}
+              length={26}
+              value={this.state.boardRow3}
+            />
+          </div>
+
           <br />
           <br />
           <div class="subline"></div>
