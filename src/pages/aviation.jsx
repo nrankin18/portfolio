@@ -7,9 +7,8 @@ import { flags } from "../util/flags.js";
 
 import Map from "../components/Map";
 
-class Home extends React.Component {
+class Aviation extends React.Component {
   render() {
-    console.log(process.env.REACT_APP_MAPBOX_TOKEN);
     return (
       <div>
         <Header />
@@ -45,6 +44,36 @@ class Home extends React.Component {
             })}
           </div>
           <Map />
+          <br />
+          <br />
+          <div class="subline"></div>
+          <h3 class="subsection">
+            <span class="aviation-section-text">Total Time:</span>
+          </h3>
+          <div class="hours">167.6 hrs</div>
+          <h3 class="subsection">
+            <span class="aviation-subsection-text">Top-Time Aircraft:</span>
+          </h3>
+          <div class="aircraft">
+            <div class="ac">
+              <img src="/img/c152.png" />
+              <span class="ac-id">Cessna 152</span>
+              <span class="subline"></span>
+              <div class="ac-hours">39.3 hrs</div>
+            </div>
+            <div class="ac">
+              <img src="/img/c172.png" />
+              <span class="ac-id">Cessna 172</span>
+              <span class="subline"></span>
+              <div class="ac-hours">74.6 hrs</div>
+            </div>
+            <div class="ac">
+              <img src="/img/p28a.png" />
+              <span class="ac-id">Piper PA-28</span>
+              <span class="subline"></span>
+              <div class="ac-hours">40.8 hrs</div>
+            </div>
+          </div>
         </div>
         <Footer />
       </div>
@@ -52,4 +81,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Aviation;

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home";
 import Aviation from "./pages/aviation";
+import Contact from "./pages/contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/aviation" component={Aviation} />
+        <Route path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
     </Router>

@@ -50,7 +50,7 @@ class Header extends React.Component {
               <Link to="/aviation">Aviation</Link>
             </li>
             <li class="nav-item">
-              <a href="">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
