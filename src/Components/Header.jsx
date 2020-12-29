@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../img/logo.png";
 import "../styles.css";
 
 import { Link } from "react-router-dom";
@@ -27,7 +26,7 @@ class Header extends React.Component {
   render() {
     return (
       <div class="header">
-        <img class="logo" src={Logo} />
+        <img class="logo" src="/img/logo.png" />
         <nav class="nav">
           <ul>
             <li class="nav-item">

@@ -8,9 +8,6 @@ import { skills } from "../util/skills.js";
 import { projects } from "../util/projects.js";
 import * as Scroll from "react-scroll";
 
-import BCLogo from "../img/logos/bc.png";
-import USMLogo from "../img/logos/usm.png";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -122,7 +119,7 @@ class Home extends React.Component {
           <ul class="schools">
             <Company
               name="Boston College"
-              logo={BCLogo}
+              logo="img/logos/bc.png"
               detail="Bachelor of Science - Computer Science, Minor in Physics, Minor in Music"
               time="2018 - 2022 (expected)"
               positions={[
@@ -152,7 +149,7 @@ class Home extends React.Component {
             />
             <Company
               name="University School of Milwaukee"
-              logo={USMLogo}
+              logo="/img/logos/usm.png"
               time="2004 - 2018"
               positions={[
                 { name: "Cum Laude Society", objectives: [] },

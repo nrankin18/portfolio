@@ -1,76 +1,41 @@
-import Java from "../img/icons/java.png";
-import Swift from "../img/icons/swift.png";
-import ObjectiveC from "../img/icons/oc.png";
-import Python from "../img/icons/python.png";
-import C from "../img/icons/c.png";
-import HTML from "../img/icons/html.png";
-import CSS from "../img/icons/css.png";
-import JavaScript from "../img/icons/js.png";
-import PHP from "../img/icons/php.png";
-import SQL from "../img/icons/sql.png";
-import MySQL from "../img/icons/mysql.png";
-import JQuery from "../img/icons/jquery.png";
-import React from "../img/icons/react.png";
-import Laravel from "../img/icons/laravel.png";
-import UnrealScript from "../img/icons/ue.png";
-
-import GitHub from "../img/icons/git.png";
-import Atlassian from "../img/icons/at.png";
-import VSC from "../img/icons/vstudio.png";
-import Eclipse from "../img/icons/eclipse.png";
-import Xcode from "../img/icons/xcode.png";
-import Atom from "../img/icons/atom.png";
-import PHPStorm from "../img/icons/phpStorm.png";
-import WebStorm from "../img/icons/webstorm.png";
-import PyCharm from "../img/icons/pycharm.png";
-
-import Windows from "../img/icons/windows.png";
-import MacOS from "../img/icons/apple.png";
-import Linux from "../img/icons/linux.png";
-import AWS from "../img/icons/aws.png";
-import Office from "../img/icons/office.png";
-import IWork from "../img/icons/iwork.png";
-import Slack from "../img/icons/slack.png";
-import GSuite from "../img/icons/gsuite.png";
-
 const skills = [
   [
-    { name: "Java", icon: Java },
-    { name: "Swift", icon: Swift },
-    { name: "Objective-C", icon: ObjectiveC },
-    { name: "Python", icon: Python },
-    { name: "C", icon: C },
-    { name: "HTML", icon: HTML },
-    { name: "CSS", icon: CSS },
-    { name: "JavaScript", icon: JavaScript },
-    { name: "PHP", icon: PHP },
-    { name: "SQL", icon: SQL },
-    { name: "MySQL", icon: MySQL },
-    { name: "jQuery", icon: JQuery },
-    { name: "React", icon: React },
-    { name: "Laravel", icon: Laravel },
-    { name: "UnrealScript", icon: UnrealScript },
+    { name: "Java", icon: "/img/icons/java.png" },
+    { name: "Swift", icon: "/img/icons/swift.png" },
+    { name: "Objective-C", icon: "/img/icons/oc.png" },
+    { name: "Python", icon: "/img/icons/python.png" },
+    { name: "C", icon: "/img/icons/c.png" },
+    { name: "HTML", icon: "/img/icons/html.png" },
+    { name: "CSS", icon: "/img/icons/css.png" },
+    { name: "JavaScript", icon: "/img/icons/js.png" },
+    { name: "PHP", icon: "/img/icons/php.png" },
+    { name: "SQL", icon: "/img/icons/sql.png" },
+    { name: "MySQL", icon: "/img/icons/mysql.png" },
+    { name: "jQuery", icon: "/img/icons/jquery.png" },
+    { name: "React", icon: "/img/icons/react.png" },
+    { name: "Laravel", icon: "/img/icons/laravel.png" },
+    { name: "UnrealScript", icon: "/img/icons/ue.png" },
   ],
   [
-    { name: "GitHub", icon: GitHub },
-    { name: "Atlassian", icon: Atlassian },
-    { name: "Visual Studio Code", icon: VSC },
-    { name: "Eclipse", icon: Eclipse },
-    { name: "Xcode", icon: Xcode },
-    { name: "Atom", icon: Atom },
-    { name: "WebStorm", icon: WebStorm },
-    { name: "PHPStorm", icon: PHPStorm },
-    { name: "PyCharm", icon: PyCharm },
+    { name: "GitHub", icon: "/img/icons/git.png" },
+    { name: "Atlassian", icon: "/img/icons/at.png" },
+    { name: "Visual Studio Code", icon: "/img/icons/vstudio.png" },
+    { name: "Eclipse", icon: "/img/icons/eclipse.png" },
+    { name: "Xcode", icon: "/img/icons/xcode.png" },
+    { name: "Atom", icon: "/img/icons/atom.png" },
+    { name: "WebStorm", icon: "/img/icons/webstorm.png" },
+    { name: "PHPStorm", icon: "/img/icons/phpstorm.png" },
+    { name: "PyCharm", icon: "/img/icons/pycharm.png" },
   ],
   [
-    { name: "Windows", icon: Windows },
-    { name: "macOS", icon: MacOS },
-    { name: "Linux", icon: Linux },
-    { name: "AWS", icon: AWS },
-    { name: "Office 360", icon: Office },
-    { name: "G Suite", icon: GSuite },
-    { name: "iWork", icon: IWork },
-    { name: "Slack", icon: Slack },
+    { name: "Windows", icon: "/img/icons/windows.png" },
+    { name: "macOS", icon: "/img/icons/apple.png" },
+    { name: "Linux", icon: "/img/icons/linux.png" },
+    { name: "AWS", icon: "/img/icons/aws.png" },
+    { name: "Office 360", icon: "/img/icons/office.png" },
+    { name: "G Suite", icon: "/img/icons/gsuite.png" },
+    { name: "iWork", icon: "/img/icons/iwork.png" },
+    { name: "Slack", icon: "/img/icons/slack.png" },
   ],
 ];
 

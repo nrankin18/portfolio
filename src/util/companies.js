@@ -1,11 +1,7 @@
-import BCLogo from "../img/logos/bc.png";
-import BVALogo from "../img/logos/bva.png";
-import SCALogo from "../img/logos/sca.png";
-
 const companies = [
   {
     name: "Boston College",
-    logo: BCLogo,
+    logo: "/img/logos/bc.png",
     time: "January, 2019 - Present",
     location: "Chestnut Hill, MA",
     positions: [
@@ -28,7 +24,7 @@ const companies = [
     ],
   },
   {
-    logo: BVALogo,
+    logo: "/img/logos/bva.png",
     name: "Boston Virtual ARTCC",
     time: "August, 2017 - Present",
     location: "Boston, MA",
@@ -52,7 +48,7 @@ const companies = [
   },
   {
     name: "Spring City Aviation",
-    logo: SCALogo,
+    logo: "img/logos/sca.png",
     date: "May, 2019 - August, 2019",
     location: "Milwaukee, WI",
     positions: [

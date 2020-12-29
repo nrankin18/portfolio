@@ -1,0 +1,380 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [-122.95, 45.5404]
+      },
+      "properties": {
+        "id": "KHIO"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-122.302, 47.53]
+      },
+      "properties": {
+        "id": "KBFI"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.2376, 43.0389]
+      },
+      "properties": {
+        "id": "KUES"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.0344, 43.1104]
+      },
+      "properties": {
+        "id": "KMWC"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.9015, 42.1142]
+      },
+      "properties": {
+        "id": "KPWK"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-89.3375, 43.1399]
+      },
+      "properties": {
+        "id": "KMSN"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-89.0972, 42.1954]
+      },
+      "properties": {
+        "id": "KRFD"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.7232, 43.1696]
+      },
+      "properties": {
+        "id": "KRYV"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.1279, 43.4222]
+      },
+      "properties": {
+        "id": "KETB"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.7039, 43.4265]
+      },
+      "properties": {
+        "id": "KUNU"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.3912, 43.3492]
+      },
+      "properties": {
+        "id": "KHXF"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.557, 43.9844]
+      },
+      "properties": {
+        "id": "KOSH"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.2509, 42.75]
+      },
+      "properties": {
+        "id": "96C"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.8966, 42.9472]
+      },
+      "properties": {
+        "id": "KMKE"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-90.046, 38.8903]
+      },
+      "properties": {
+        "id": "KALN"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-108.527, 39.1224]
+      },
+      "properties": {
+        "id": "KGJT"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.1729, 42.1905]
+      },
+      "properties": {
+        "id": "KOWD"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-70.0602, 41.2531]
+      },
+      "properties": {
+        "id": "KACK"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-91.2567, 43.879]
+      },
+      "properties": {
+        "id": "KLSE"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-89.0416, 42.6203]
+      },
+      "properties": {
+        "id": "KJVL"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.4884, 43.7712]
+      },
+      "properties": {
+        "id": "KFLD"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.5191, 44.2581]
+      },
+      "properties": {
+        "id": "KATW"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.8657, 39.8346]
+      },
+      "properties": {
+        "id": "KDEC"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-88.1296, 44.4851]
+      },
+      "properties": {
+        "id": "KGRB"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.8514, 43.7696]
+      },
+      "properties": {
+        "id": "KSBM"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-89.5303, 44.5452]
+      },
+      "properties": {
+        "id": "KSTE"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-89.6668, 44.7776]
+      },
+      "properties": {
+        "id": "KCWA"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-90.7095, 42.402]
+      },
+      "properties": {
+        "id": "KDBQ"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.4215, 44.8437]
+      },
+      "properties": {
+        "id": "KSUE"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.7524, 41.786]
+      },
+      "properties": {
+        "id": "KMDW"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.4145, 41.6172]
+      },
+      "properties": {
+        "id": "KGYY"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.1982, 42.0009]
+      },
+      "properties": {
+        "id": "1B9"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-69.9897, 41.6883]
+      },
+      "properties": {
+        "id": "KCQX"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-70.9161, 42.5841]
+      },
+      "properties": {
+        "id": "KBVY"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-92.398, 42.5552]
+      },
+      "properties": {
+        "id": "KALO"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-95.8937, 41.3019]
+      },
+      "properties": {
+        "id": "KOMA"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-87.6834, 44.122]
+      },
+      "properties": {
+        "id": "KMTW"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-90.5075278, 41.4482778]
+      },
+      "properties": {
+        "id": "KMLI"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-95.8881111, 36.1983889]
+      },
+      "properties": {
+        "id": "KTUL"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-92.2180278, 38.8173333]
+      },
+      "properties": {
+        "id": "KCOU"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-83.7457088, 42.2229276]
+      },
+      "properties": {
+        "id": "KARB"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-78.9458467, 43.1075574]
+      },
+      "properties": {
+        "id": "KIAG"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-70.5244706, 41.3584506]
+      },
+      "properties": {
+        "id": "1B2"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.4304, 41.7245]
+      },
+      "properties": {
+        "id": "KPVD"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.289, 42.4699444]
+      },
+      "properties": {
+        "id": "KBED"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.5458056, 44.3675556]
+      },
+      "properties": {
+        "id": "KHIE"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [-71.4178417, 43.5730417]
+      },
+      "properties": {
+        "id": "KLCI"
+      }
+    }
+  ]
+}
