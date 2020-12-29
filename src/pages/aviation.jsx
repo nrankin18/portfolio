@@ -3,6 +3,8 @@ import "../styles.css";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Slideshow from "../components/Slideshow";
+
 import { flags } from "../util/flags.js";
 
 import Map from "../components/Map";
@@ -30,6 +32,21 @@ class Aviation extends React.Component {
               </p>
               <img src="/img/wings.png" />
             </div>
+            <Slideshow
+              isAviation={1}
+              slides={[
+                { image: "/img/aviation/av3.png", caption: "Mount Hood" },
+                { image: "/img/aviation/av1.png", caption: "Chicago" },
+                { image: "/img/aviation/av4.png", caption: "Boston College" },
+                {
+                  image: "/img/aviation/av2.png",
+                  caption: "Arches National Park",
+                },
+                { image: "/img/aviation/av5.png", caption: "Nantucket" },
+                { image: "/img/aviation/av6.png", caption: "Niagara Falls" },
+                { image: "/img/aviation/av7.png", caption: "White Mountains" },
+              ]}
+            />
           </div>
           <br />
           <br />
