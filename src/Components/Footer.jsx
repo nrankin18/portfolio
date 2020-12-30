@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles.css";
 
-import Facebook from "/img/icons/facebook.png";
-import Instagram from "/img/icons/instagram.png";
-import LinkedIn from "/img/icons/linkedin.png";
-import GitHub from "/img/icons/github.png";
+import Mail from "../img/icons/mail.png";
+import Facebook from "../img/icons/facebook.png";
+import Instagram from "../img/icons/instagram.png";
+import LinkedIn from "../img/icons/linkedin.png";
+import GitHub from "../img/icons/github.png";
 
 class Footer extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class Footer extends React.Component {
             ↓ Download Resume
           </a>
           <a href="mailto:rankinna@bc.edu">
-            <img src="/img/icons/mail.png" />
+            <img src={Mail} />
           </a>
           <a href="https://www.facebook.com/nathan.rankin.908" target="_blank">
             <img src={Facebook} />
