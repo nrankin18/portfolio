@@ -27,6 +27,7 @@ class Slideshow extends React.Component {
   }
 
   render() {
+    console.log(this.props.isMobile);
     if (this.props.isAviation)
       return (
         <div class="aviation-slideshow">
@@ -74,6 +75,103 @@ class Slideshow extends React.Component {
           </div>
         </div>
       );
+    else if (this.props.isMobile == 1)
+      return (
+        <div class="modal-mobile-slideshow">
+          <span class="slides">
+            {this.props.slides.map((slide, index) => {
+              return this.state.currentSlide == index ? (
+                <div class="slide fade" index={index}>
+                  <img src={slide} />
+                </div>
+              ) : (
+                <div
+                  class="slide fade"
+                  style={{ display: "none" }}
+                  index={index}
+                >
+                  <img src={slide} />
+                </div>
+              );
+            })}
+            {this.props.slides.length > 1 ? (
+              <a class="prev" onClick={this.previousSlide.bind(this)}>
+                &#10094;
+              </a>
+            ) : null}
+            {this.props.slides.length > 1 ? (
+              <a class="next" onClick={this.nextSlide.bind(this)}>
+                &#10095;
+              </a>
+            ) : null}
+          </span>
+          {this.props.slides.length > 1 ? (
+            <div style={{ textAlign: "center" }}>
+              <div class="dotbar">
+                {this.props.slides.map((slide, index) => {
+                  return this.state.currentSlide == index ? (
+                    <span
+                      class="slide-dot active"
+                      onClick={() => this.goToSlide(index)}
+                    ></span>
+                  ) : (
+                    <span
+                      class="slide-dot"
+                      onClick={() => this.goToSlide(index)}
+                    ></span>
+                  );
+                })}
+              </div>
+            </div>
+          ) : null}
+        </div>
+      );
+    return (
+      <div class="modal-slideshow">
+        <span class="slides">
+          {this.props.slides.map((slide, index) => {
+            return this.state.currentSlide == index ? (
+              <div class="slide fade" index={index}>
+                <img src={slide} />
+              </div>
+            ) : (
+              <div class="slide fade" style={{ display: "none" }} index={index}>
+                <img src={slide} />
+              </div>
+            );
+          })}
+          {this.props.slides.length > 1 ? (
+            <a class="prev" onClick={this.previousSlide.bind(this)}>
+              &#10094;
+            </a>
+          ) : null}
+          {this.props.slides.length > 1 ? (
+            <a class="next" onClick={this.nextSlide.bind(this)}>
+              &#10095;
+            </a>
+          ) : null}
+        </span>
+        {this.props.slides.length > 1 ? (
+          <div style={{ textAlign: "center" }}>
+            <div class="dotbar">
+              {this.props.slides.map((slide, index) => {
+                return this.state.currentSlide == index ? (
+                  <span
+                    class="slide-dot active"
+                    onClick={() => this.goToSlide(index)}
+                  ></span>
+                ) : (
+                  <span
+                    class="slide-dot"
+                    onClick={() => this.goToSlide(index)}
+                  ></span>
+                );
+              })}
+            </div>
+          </div>
+        ) : null}
+      </div>
+    );
   }
 }
 

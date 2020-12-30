@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.css";
 import Company from "../components/Company";
 import Skill from "../components/Skill";
+import ProjectModal from "../components/ProjectModal";
 import { companies } from "../util/companies.js";
 import { skills } from "../util/skills.js";
 import { projects } from "../util/projects.js";
@@ -9,10 +10,27 @@ import * as Scroll from "react-scroll";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Modal from "react-modal";
 
 let Element = Scroll.Element;
 
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { modalOpen: false };
+  }
+  // componentDidMount() {
+  //   Modal.setAppElement(document.getElementById("root"));
+  // }
+
+  openModal(project) {
+    this.setState({ modalOpen: true, project: project });
+  }
+
+  closeModal(project) {
+    this.setState({ modalOpen: false });
+  }
+
   render() {
     return (
       <div>
@@ -101,9 +119,35 @@ class Home extends React.Component {
           </h3>
           <div class="subline"></div>
           <div class="projects">
+            <Modal
+              isOpen={this.state.modalOpen}
+              onRequestClose={this.closeModal.bind(this)}
+              style={{
+                overlay: {
+                  backgroundColor: "rgba(0, 0, 0, 0.4)",
+                },
+                content: {
+                  top: "100px",
+                  margin: "5% auto",
+                  padding: "0 20px",
+                  border: "1px solid #888",
+                  width: "80%",
+                },
+              }}
+            >
+              <ProjectModal
+                project={this.state.project}
+                closeModal={this.closeModal.bind(this)}
+              />
+            </Modal>
             {projects.map((project) => {
               return (
-                <div class="project">
+                <div
+                  class="project"
+                  onClick={() => {
+                    this.openModal(project);
+                  }}
+                >
                   <img src={project.images[0]} />
                   <div class="screen">
                     <p>{project.name}</p>
@@ -130,6 +174,7 @@ class Home extends React.Component {
                 {
                   name: "Courses include:",
                   objectives: [
+                    "Intro to Computer Science (TA)",
                     "Data Structures (TA)",
                     "Computer Systems",
                     "Logic and Computation",
