@@ -1,10 +1,64 @@
 import React from "react";
 import "../styles.css";
+import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
+import Swal from "sweetalert2";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+const recaptchaRef = React.createRef();
+
 class Contact extends React.Component {
+  sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fdnr2h8",
+        "template_8jnaqd7",
+        e.target,
+        "user_EWmkoYvos96nJmOGEURtD"
+      )
+      .then(
+        (result) => {
+          Swal.fire({
+            icon: "success",
+            title: "Message sent",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          if (error.text == "The g-recaptcha-response parameter not found") {
+            Swal.fire({
+              footer:
+                '<a href="mailto:18nrankin@gmail.com">Send me an email directly</a>',
+              icon: "warning",
+              title: "Error validating reCAPTCHA",
+              showConfirmButton: false,
+              timer: 10000,
+              timerProgressBar: true,
+              showCloseButton: true,
+            });
+          } else {
+            Swal.fire({
+              footer:
+                '<a href="mailto:18nrankin@gmail.com">Send me an email directly</a>',
+              icon: "error",
+              title: "Message failed to send",
+              showConfirmButton: false,
+              timer: 10000,
+              timerProgressBar: true,
+              showCloseButton: true,
+            });
+          }
+        }
+      );
+  };
+
   render() {
     return (
       <div>
@@ -16,7 +70,7 @@ class Contact extends React.Component {
             <div class="column">
               <div class="column-head">Send a message:</div>
               <div class="subline"></div>
-              <form class="contact-form" action="contactform.php" method="post">
+              <form class="contact-form" onSubmit={this.sendEmail}>
                 <span>Name:</span>
                 <input
                   type="text"
@@ -27,7 +81,7 @@ class Contact extends React.Component {
                 <span>Email:</span>
                 <input
                   type="text"
-                  name="mail"
+                  name="reply_to"
                   placeholder="example@domain.com"
                   required
                 />
@@ -40,10 +94,10 @@ class Contact extends React.Component {
                   placeholder="Your message here..."
                 ></textarea>
                 <br />
-                <div
-                  class="g-recaptcha"
-                  data-sitekey="6LcyNrUZAAAAAKUiMPfiyw5037o245IZXhK9g8vc"
-                ></div>
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey="6LcyNrUZAAAAAKUiMPfiyw5037o245IZXhK9g8vc"
+                />
                 <button type="submit" name="submit">
                   Send
                 </button>
