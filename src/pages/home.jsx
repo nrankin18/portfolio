@@ -66,13 +66,14 @@ class Home extends React.Component {
               I am a hardworking, highly motivated and dedicated student
               pursuing a B.S. in computer science at Boston College with minors
               in physics and music. I have experience in a wide variety of
-              software engineering including Java, iOS, and web development and
-              am currently seeking an internship in computer science.
-              Additionally, I have a passion for aviation and hold a private
-              pilot's license with an instrument rating. This hobby has inspired
-              many of my computer science projects, including my role as
-              Facility Engineer for Boston Virtual ARTCC. Feel free to explore
-              my website and learn more about me.
+              software engineering topics including Java, iOS, and full-stack
+              web development and am currently seeking a software engineering
+              internship or freelance projects. Additionally, I have a passion
+              for aviation and hold a private pilot's license with an instrument
+              rating. This hobby has inspired many of my software development
+              projects, including my role as Facility Engineer for Boston
+              Virtual ARTCC. Feel free to explore my website and learn more
+              about me.
             </p>
           </div>
           <h2 class="section" id="experience">

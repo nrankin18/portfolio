@@ -21,6 +21,12 @@ class Company extends React.Component {
                   <div class="position-name">{position.name}</div>
                   <ul class="objectives">
                     {position.objectives.map((objective) => {
+                      if (objective.includes("(TA)"))
+                        return (
+                          <li>
+                            <strong>{objective}</strong>
+                          </li>
+                        );
                       return (
                         <li
                           dangerouslySetInnerHTML={{ __html: objective }}

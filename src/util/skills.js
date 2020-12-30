@@ -2,19 +2,15 @@ const skills = [
   [
     { name: "Java", icon: "/img/icons/java.png" },
     { name: "Swift", icon: "/img/icons/swift.png" },
-    { name: "Objective-C", icon: "/img/icons/oc.png" },
-    { name: "Python", icon: "/img/icons/python.png" },
+    { name: "React", icon: "/img/icons/react.png" },
     { name: "C", icon: "/img/icons/c.png" },
     { name: "HTML", icon: "/img/icons/html.png" },
     { name: "CSS", icon: "/img/icons/css.png" },
     { name: "JavaScript", icon: "/img/icons/js.png" },
     { name: "PHP", icon: "/img/icons/php.png" },
     { name: "SQL", icon: "/img/icons/sql.png" },
-    { name: "MySQL", icon: "/img/icons/mysql.png" },
     { name: "jQuery", icon: "/img/icons/jquery.png" },
-    { name: "React", icon: "/img/icons/react.png" },
     { name: "Laravel", icon: "/img/icons/laravel.png" },
-    { name: "UnrealScript", icon: "/img/icons/ue.png" },
   ],
   [
     { name: "GitHub", icon: "/img/icons/git.png" },
@@ -23,9 +19,6 @@ const skills = [
     { name: "Eclipse", icon: "/img/icons/eclipse.png" },
     { name: "Xcode", icon: "/img/icons/xcode.png" },
     { name: "Atom", icon: "/img/icons/atom.png" },
-    { name: "WebStorm", icon: "/img/icons/webstorm.png" },
-    { name: "PHPStorm", icon: "/img/icons/phpstorm.png" },
-    { name: "PyCharm", icon: "/img/icons/pycharm.png" },
   ],
   [
     { name: "Windows", icon: "/img/icons/windows.png" },
@@ -34,8 +27,6 @@ const skills = [
     { name: "AWS", icon: "/img/icons/aws.png" },
     { name: "Office 360", icon: "/img/icons/office.png" },
     { name: "G Suite", icon: "/img/icons/gsuite.png" },
-    { name: "iWork", icon: "/img/icons/iwork.png" },
-    { name: "Slack", icon: "/img/icons/slack.png" },
   ],
 ];
 

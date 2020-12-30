@@ -32,15 +32,15 @@ const companies = [
       {
         name: "Facility Engineer",
         objectives: [
-          "Facilitates one-on-one and group tutorial sessions",
-          "Grades and provides feedback for 80 students' weekly problem sets",
-          "Facilitates student collaboration via an online forum",
+          "Assist in the continual development of community management website with a user base of over 1500 members featuring exam distribution and test corrections, event management, shift sign-ups, and roster management",
+          "Manage and develop community web tools including an Information Display System that interfaces with FAA databases, weather information, aeronautical charts and live airport information",
+          "Develops and maintains a library of 90 radar client sector files",
         ],
       },
       {
         name: "ATC Mentor",
         objectives: [
-          "Works with students learning air traffic control procedures to issue certifications to control on the VATSIM network",
+          "Works with students learning air traffic control procedures and issues certifications to control on the VATSIM network",
           "Manages internal exam center including test correction review",
         ],
       },
@@ -49,7 +49,7 @@ const companies = [
   {
     name: "Spring City Aviation",
     logo: "img/logos/sca.png",
-    date: "May, 2019 - August, 2019",
+    time: "May, 2019 - August, 2019",
     location: "Milwaukee, WI",
     positions: [
       {

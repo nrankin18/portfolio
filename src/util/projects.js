@@ -8,19 +8,27 @@ const projects = [
       "/img/projects/pw4.png",
     ],
     isMobile: 0,
-    description: `I created this portfolio website at the beginning of 2020 to display my resume in a more interactive format for prospective employers. Around 95% of the website's elements were created from the ground up, helping me strengthen my HTML, CSS, JavaScript, and PHP skills. In the projects section, I designed popup modals that display additional project information (such as the one you are viewing now) and incorporated interactive slideshows. The aviation page features a map created using the Carto API and is populated with data from a GeoJSON file. Finally, the contact page includes a PHP email form with Google reCAPTCHA protection.`,
+    description: `I created this portfolio website at the beginning of 2020 to display my resume in a more interactive format. In late 2020 I ported the project to React for easier upkeep. In the projects section, I designed popup modals that display additional project information (such as the one you are viewing now) and incorporated interactive slideshows. The aviation page features a map created using Mapbox GL and is populated with data from a GeoJSON file. Finally, the contact page includes an email form with integrated Google reCAPTCHA protection.`,
     line1Text: "Languages used:",
     line1Icons: [
       { name: "HTML", icon: "/img/icons/html.png" },
       { name: "CSS", icon: "/img/icons/css.png" },
       { name: "JavaScript", icon: "/img/icons/js.png" },
     ],
-    line2Text: "Source code available on:",
+    line2Text: "Technologies used:",
     line2Icons: [
+      { name: "React", icon: "/img/icons/react.png" },
+      { name: "React Router", icon: "/img/icons/reactrouter.png" },
+      { name: "Mapbox", icon: "/img/icons/mapbox.png" },
+      { name: "EmailJS", icon: "/img/icons/emailjs.png" },
+      { name: "reCAPTCHA", icon: "/img/icons/recaptcha.png" },
+    ],
+    line3Text: "Source code available on:",
+    line3Icons: [
       {
         name: "GitHub",
         icon: "/img/icons/git.png",
-        href: "https://github.com/nrankin18/Portfolio",
+        href: "https://github.com/nrankin18/react-portfolio",
       },
     ],
   },
@@ -58,6 +66,39 @@ const projects = [
       {
         name: "jQuery",
         icon: "/img/icons/jquery.png",
+      },
+    ],
+  },
+  {
+    name: "BCCSS Website",
+    images: [
+      "/img/projects/bccss1.png",
+      "/img/projects/bccss2.png",
+      "/img/projects/bccss3.png",
+      "/img/projects/bccss4.png",
+    ],
+    isMobile: 0,
+    description:
+      "As part of my role as Tech Team Lead on the executive board of Boston College's Computer Science Society, I was tasked with refreshing our society's website along with the website for our annual hackathon: Hack the Heights. The main website features an integrated Mailchimp sign up, team members, and upcoming events. The Hack the Heights website was heavily used both for pre-event promotion as well as organization during the event weekend. It includes a 'live' page that displays the schedule and announcements as well as descriptions of our volunteer mentors and sponsors.",
+    line1Text: "Languages used:",
+    line1Icons: [
+      { name: "HTML", icon: "/img/icons/html.png" },
+      { name: "CSS", icon: "/img/icons/css.png" },
+      { name: "JavaScript", icon: "/img/icons/js.png" },
+    ],
+    line2Text: "Technologies used:",
+    line2Icons: [{ name: "Mailchimp", icon: "/img/icons/mailchimp.png" }],
+    line3Text: "Visit sites:",
+    line3Icons: [
+      {
+        name: "bccss.io",
+        icon: "/img/icons/web.png",
+        href: "https://bccss.io",
+      },
+      {
+        name: "hacktheheights.org",
+        icon: "/img/icons/web.png",
+        href: "http://hacktheheights.org",
       },
     ],
   },

@@ -18,24 +18,60 @@ class ProjectModal extends React.Component {
           isMobile={this.props.project.isMobile}
         />
         <p class="modal-text">{this.props.project.description}</p>
-        <span class="modal-language">{this.props.project.line1Text}</span>
-        <div className="skills modal-skills">
-          <div className="modal-skills">
-            {this.props.project.line1Icons.map((skill) => {
-              return <Skill name={skill.name} icon={skill.icon} />;
-            })}
+        {this.props.project.line1Text ? (
+          <div>
+            <span class="modal-language">{this.props.project.line1Text}</span>
+            <div className="skills modal-skills">
+              <div className="modal-skills">
+                {this.props.project.line1Icons.map((skill) => {
+                  return (
+                    <Skill
+                      name={skill.name}
+                      icon={skill.icon}
+                      href={skill.href}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           </div>
-        </div>
-        <span class="modal-language">{this.props.project.line2Text}</span>
-        <div className="skills modal-skills">
-          <div className="modal-skills">
-            {this.props.project.line2Icons.map((skill) => {
-              return (
-                <Skill name={skill.name} icon={skill.icon} href={skill.href} />
-              );
-            })}
+        ) : null}
+        {this.props.project.line2Text ? (
+          <div>
+            <span class="modal-language">{this.props.project.line2Text}</span>
+            <div className="skills modal-skills">
+              <div className="modal-skills">
+                {this.props.project.line2Icons.map((skill) => {
+                  return (
+                    <Skill
+                      name={skill.name}
+                      icon={skill.icon}
+                      href={skill.href}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           </div>
-        </div>
+        ) : null}
+        {this.props.project.line3Text ? (
+          <div>
+            <span class="modal-language">{this.props.project.line3Text}</span>
+            <div className="skills modal-skills">
+              <div className="modal-skills">
+                {this.props.project.line3Icons.map((skill) => {
+                  return (
+                    <Skill
+                      name={skill.name}
+                      icon={skill.icon}
+                      href={skill.href}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : null}
       </div>
     );
   }
