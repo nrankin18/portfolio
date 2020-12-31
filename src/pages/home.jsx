@@ -62,24 +62,25 @@ class Home extends React.Component {
           </span>
           <div class="line"></div>
           <div class="about">
-            <img id="headshot" src={Headshot} alt="Nathan Rankin" />
-            <span class="html-column">
+            <img class="headshot" src={Headshot} alt="Nathan Rankin" />
+            <div class="about-column">
               <span class="html-tag top">{"<p>"}</span>
+              <p class="about-text">
+                Thank you for visiting my portfolio website! I am a hardworking,
+                highly motivated and dedicated student pursuing a B.S. in
+                computer science at Boston College with minors in physics and
+                music. I have experience in a wide variety of software
+                engineering topics including Java, iOS, and full-stack web
+                development and am currently seeking a software engineering
+                internship or freelance projects. Additionally, I have a passion
+                for aviation and hold a private pilot's license with an
+                instrument rating. This hobby has inspired many of my software
+                development projects, including my role as Facility Engineer for
+                Boston Virtual ARTCC. Feel free to explore my website and learn
+                more about me.
+              </p>
               <span class="html-tag">{"</p>"}</span>
-            </span>
-            <p class="about-text">
-              I am a hardworking, highly motivated and dedicated student
-              pursuing a B.S. in computer science at Boston College with minors
-              in physics and music. I have experience in a wide variety of
-              software engineering topics including Java, iOS, and full-stack
-              web development and am currently seeking a software engineering
-              internship or freelance projects. Additionally, I have a passion
-              for aviation and hold a private pilot's license with an instrument
-              rating. This hobby has inspired many of my software development
-              projects, including my role as Facility Engineer for Boston
-              Virtual ARTCC. Feel free to explore my website and learn more
-              about me.
-            </p>
+            </div>
           </div>
           <h2 class="section" id="experience">
             <Element name="experience" />

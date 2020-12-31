@@ -269,6 +269,14 @@ nav > ul > li {
 .about {
   margin: 3em 5%;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-column {
+  margin-top: 20px;
+  max-width: 800px;
 }
 
 .about img {
@@ -279,21 +287,13 @@ nav > ul > li {
   height: 150px;
 }
 
-.html-column {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  text-align: center;
+.about-text {
+  text-indent: 50px;
+  padding-left: 150px;
+  padding-right: 50px;
+  margin: 0;
 }
 
-.about-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-indent: 50px;
-  max-width: 50%;
-  margin: 25px 0;
-}
 .section {
   margin-top: 1em;
   font-weight: normal;
