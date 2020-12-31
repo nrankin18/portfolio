@@ -65,20 +65,28 @@ nav > ul > li {
 }
 
 .mobile-nav-menu {
-  position: absolute;
+  position: relative;
   width: 100%;
+  top: -500px;
   background-color: #000000dd;
-  top: -1000%;
   transition: all 1s;
 }
 
+.mobile-nav-menu-wrapper {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  overflow-y: hidden;
+  background: none;
+}
+
 .top {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .nav-active {
   display: block !important;
-  top: 100%;
+  top: 0%;
 }
 
 .ham {
@@ -162,7 +170,7 @@ nav > ul > li {
 
 .connect img {
   width: 45px;
-  transition: all 0.2s;
+  transition: transform 0.2s;
 }
 
 .connect a {
@@ -951,9 +959,6 @@ nav > ul > li {
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
   transform: scaleY(1);
-  -webkit-transition: -webkit-transform linear;
-  -moz-transition: -moz-transform linear;
-  -o-transition: -o-transform linear;
   transition: transform linear;
 }
 

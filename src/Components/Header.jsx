@@ -85,7 +85,7 @@ class Header extends React.Component {
             </div>
           </ul>
         </nav>
-        <div className="mobile">
+        <div className="mobile mobile-nav-menu-wrapper">
           <div
             className={
               this.state.mobileDropdownActive
