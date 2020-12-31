@@ -12,6 +12,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Modal from "react-modal";
 
+import Banner from "../img/banner.png";
+import Headshot from "../img/headshot.png";
+import BCLogo from "../img/logos/bc.png";
+import USMLogo from "../img/logos/usm.png";
+
 let Element = Scroll.Element;
 
 class Home extends React.Component {
@@ -37,7 +42,7 @@ class Home extends React.Component {
         <Header isHome={1} />
         <div class="home">
           <div class="banner">
-            <img src="/img/banner.png" />
+            <img src={Banner} />
           </div>
 
           <div class="stripe"></div>
@@ -57,7 +62,7 @@ class Home extends React.Component {
           </span>
           <div class="line"></div>
           <div class="about">
-            <img id="headshot" src="/img/headshot.png" />
+            <img id="headshot" src={Headshot} />
             <span class="html-column">
               <span class="html-tag top">{"<p>"}</span>
               <span class="html-tag">{"</p>"}</span>
@@ -166,7 +171,7 @@ class Home extends React.Component {
           <ul class="schools">
             <Company
               name="Boston College"
-              logo="img/logos/bc.png"
+              logo={BCLogo}
               detail="Bachelor of Science - Computer Science, Minor in Physics, Minor in Music"
               time="2018 - 2022 (expected)"
               positions={[
@@ -197,7 +202,7 @@ class Home extends React.Component {
             />
             <Company
               name="University School of Milwaukee"
-              logo="/img/logos/usm.png"
+              logo={USMLogo}
               time="2004 - 2018"
               positions={[
                 { name: "Cum Laude Society", objectives: [] },

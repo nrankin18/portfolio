@@ -7,6 +7,15 @@ import { flags } from "../util/flags.js";
 import Map from "../components/Map";
 import Destinations from "../components/Destinations";
 
+import Wings from "../img/wings.png";
+import av1 from "../img/aviation/av1.png";
+import av2 from "../img/aviation/av2.png";
+import av3 from "../img/aviation/av3.png";
+import av4 from "../img/aviation/av4.png";
+import av5 from "../img/aviation/av5.png";
+import av6 from "../img/aviation/av6.png";
+import av7 from "../img/aviation/av7.png";
+
 class Aviation extends React.Component {
   constructor(props) {
     super(props);
@@ -38,21 +47,21 @@ class Aviation extends React.Component {
                 the Massachusetts cape, all while sharing my passion with
                 friends and family.
               </p>
-              <img src="/img/wings.png" />
+              <img src={Wings} />
             </div>
             <Slideshow
               isAviation={1}
               slides={[
-                { image: "/img/aviation/av3.png", caption: "Mount Hood" },
-                { image: "/img/aviation/av1.png", caption: "Chicago" },
-                { image: "/img/aviation/av4.png", caption: "Boston College" },
+                { image: av3, caption: "Mount Hood" },
+                { image: av1, caption: "Chicago" },
+                { image: av4, caption: "Boston College" },
                 {
-                  image: "/img/aviation/av2.png",
+                  image: av2,
                   caption: "Arches National Park",
                 },
-                { image: "/img/aviation/av5.png", caption: "Nantucket" },
-                { image: "/img/aviation/av6.png", caption: "Niagara Falls" },
-                { image: "/img/aviation/av7.png", caption: "White Mountains" },
+                { image: av5, caption: "Nantucket" },
+                { image: av6, caption: "Niagara Falls" },
+                { image: av7, caption: "White Mountains" },
               ]}
             />
           </div>

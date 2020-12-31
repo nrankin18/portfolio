@@ -7,6 +7,11 @@ import Swal from "sweetalert2";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+import Facebook from "../img/icons/facebook.png";
+import Instagram from "../img/icons/instagram.png";
+import LinkedIn from "../img/icons/linkedin.png";
+import GitHub from "../img/icons/github.png";
+
 const recaptchaRef = React.createRef();
 
 class Contact extends React.Component {
@@ -108,7 +113,7 @@ class Contact extends React.Component {
               <div class="subline"></div>
               <div class="connection">
                 <a href="https://www.facebook.com/nathan.rankin.908">
-                  <img src="/img/icons/facebook.png" />
+                  <img src={Facebook} />
                 </a>
                 <a href="https://www.facebook.com/nathan.rankin.908">
                   facebook.com/nathan.rankin.908
@@ -116,7 +121,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://www.instagram.com/rankin_n/">
-                  <img src="/img/icons/instagram.png" />
+                  <img src={Instagram} />
                 </a>
                 <a href="https://www.instagram.com/rankin_n/">
                   instagram.com/rankin_n
@@ -124,7 +129,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://www.linkedin.com/in/nathanrankin/">
-                  <img src="img/icons/linkedin.png" />
+                  <img src={LinkedIn} />
                 </a>
                 <a href="https://www.linkedin.com/in/nathanrankin/">
                   linkedin.com/in/nathanrankin
@@ -132,7 +137,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://github.com/nrankin18">
-                  <img src="/img/icons/github.png" />
+                  <img src={GitHub} />
                 </a>
                 <a href="https://github.com/nrankin18">github.com/nrankin18</a>
               </div>

@@ -4,6 +4,8 @@ import "../styles.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
+import Logo from "../img/logo.png";
+
 import Scroll from "react-scroll";
 let scroll = Scroll.animateScroll;
 let scroller = Scroll.scroller;
@@ -26,7 +28,7 @@ class Header extends React.Component {
   render() {
     return (
       <div class="header">
-        <img class="logo" src="/img/logo.png" />
+        <img class="logo" src={Logo} />
         <nav class="nav">
           <ul>
             <li class="nav-item">
