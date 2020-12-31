@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles.css";
-import Company from "../components/Company";
-import Skill from "../components/Skill";
-import ProjectModal from "../components/ProjectModal";
+import Company from "../Components/Company.jsx";
+import Skill from "../Components/Skill.jsx";
+import ProjectModal from "../Components/ProjectModal.jsx";
 import { companies } from "../util/companies.js";
 import { skills } from "../util/skills.js";
 import { projects } from "../util/projects.js";
 import * as Scroll from "react-scroll";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import Modal from "react-modal";
 
 import Banner from "../img/banner.png";

@@ -4,8 +4,8 @@ import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 import Swal from "sweetalert2";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 import Facebook from "../img/icons/facebook.png";
 import Instagram from "../img/icons/instagram.png";

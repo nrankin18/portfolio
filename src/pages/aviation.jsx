@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Slideshow from "../components/Slideshow";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import Slideshow from "../Components/Slideshow";
 import { flags } from "../util/flags.js";
-import Map from "../components/Map";
-import Destinations from "../components/Destinations";
+import Map from "../Components/Map";
+import Destinations from "../Components/Destinations";
 
 import Wings from "../img/wings.png";
 import C152 from "../img/c152.png";
