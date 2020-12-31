@@ -20,19 +20,35 @@ class Footer extends React.Component {
             ↓ Download Resume
           </a>
           <a href="mailto:rankinna@bc.edu">
-            <img src={Mail} />
+            <img src={Mail} alt="Mail" />
           </a>
-          <a href="https://www.facebook.com/nathan.rankin.908" target="_blank">
-            <img src={Facebook} />
+          <a
+            href="https://www.facebook.com/nathan.rankin.908"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={Facebook} alt="Facebook" />
           </a>
-          <a href="https://www.instagram.com/rankin_n/" target="_blank">
-            <img src={Instagram} />
+          <a
+            href="https://www.instagram.com/rankin_n/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={Instagram} alt="Instagram" />
           </a>
-          <a href="https://www.linkedin.com/in/nathanrankin/" target="_blank">
-            <img src={LinkedIn} />
+          <a
+            href="https://www.linkedin.com/in/nathanrankin/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <a href="https://github.com/nrankin18" target="_blank">
-            <img src={GitHub} />
+          <a
+            href="https://github.com/nrankin18"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={GitHub} alt="GitHub" />
           </a>
         </span>
       </div>

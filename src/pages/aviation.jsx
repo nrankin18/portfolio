@@ -50,7 +50,7 @@ class Aviation extends React.Component {
                 the Massachusetts cape, all while sharing my passion with
                 friends and family.
               </p>
-              <img src={Wings} />
+              <img src={Wings} alt="" />
             </div>
             <Slideshow
               isAviation={1}
@@ -75,7 +75,7 @@ class Aviation extends React.Component {
             {flags.map((flag) => {
               return (
                 <div class="flag">
-                  <img src={flag} />
+                  <img src={flag} alt="" />
                 </div>
               );
             })}
@@ -94,19 +94,19 @@ class Aviation extends React.Component {
           </h3>
           <div class="aircraft">
             <div class="ac">
-              <img src={C152} />
+              <img src={C152} alt="" />
               <span class="ac-id">Cessna 152</span>
               <span class="subline"></span>
               <div class="ac-hours">39.3 hrs</div>
             </div>
             <div class="ac">
-              <img src={C172} />
+              <img src={C172} alt="" />
               <span class="ac-id">Cessna 172</span>
               <span class="subline"></span>
               <div class="ac-hours">74.6 hrs</div>
             </div>
             <div class="ac">
-              <img src={P28A} />
+              <img src={P28A} alt="" />
               <span class="ac-id">Piper PA-28</span>
               <span class="subline"></span>
               <div class="ac-hours">40.8 hrs</div>

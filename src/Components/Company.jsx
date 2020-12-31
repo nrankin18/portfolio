@@ -6,7 +6,7 @@ class Company extends React.Component {
     return (
       <li class="company">
         <div class="company-logo">
-          <img src={this.props.logo} />
+          <img src={this.props.logo} alt={this.props.name} />
           <div class="vert-line"></div>
         </div>
         <div class="company-text">

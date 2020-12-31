@@ -123,7 +123,7 @@ class Destinations extends React.Component {
       this._stopAt = DepartureBoard.LETTERS.indexOf(value);
 
       if (this._stopAt < 0) this._stopAt = 0;
-      if (!this._interval && this._index != this._stopAt) this.spin(false);
+      if (!this._interval && this._index !== this._stopAt) this.spin(false);
     };
 
     DepartureBoard.Letter.prototype._tick = function () {
@@ -180,7 +180,6 @@ class Destinations extends React.Component {
       rowCount: 5,
       letterCount: 26,
     });
-    var i = 1;
     const title = "       Destinations       ";
     const line = "--------------------------";
     const displays = [
@@ -228,11 +227,6 @@ class Destinations extends React.Component {
       ],
     ];
     board.setValue(displays[0]);
-    const interval = setInterval(function () {
-      board.setValue(displays[i]);
-      if (i == displays.length - 1) i = 0;
-      else i++;
-    }, 15000);
   }
 
   render() {

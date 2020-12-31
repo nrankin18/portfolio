@@ -59,6 +59,7 @@ import Swift from "../img/icons/swift.png";
 import Java from "../img/icons/java.png";
 import US from "../img/icons/ue.png";
 import OC from "../img/icons/oc.png";
+import Cloudflare from "../img/icons/cloudflare.png";
 
 const projects = [
   {
@@ -79,6 +80,7 @@ const projects = [
       { name: "Mapbox", icon: Mapbox },
       { name: "EmailJS", icon: EmailJS },
       { name: "reCAPTCHA", icon: reCAPTCHA },
+      { name: "Cloudflare", icon: Cloudflare },
     ],
     line3Text: "Source code available on:",
     line3Icons: [

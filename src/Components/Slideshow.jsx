@@ -33,10 +33,10 @@ class Slideshow extends React.Component {
         <div class="aviation-slideshow">
           <span class="slides">
             {this.props.slides.map((slide, index) => {
-              return this.state.currentSlide == index ? (
+              return this.state.currentSlide === index ? (
                 <div class="slide fade" index={index}>
                   <div class="caption">{slide.caption}</div>
-                  <img src={slide.image} />
+                  <img src={slide.image} alt={slide.caption} />
                 </div>
               ) : (
                 <div
@@ -45,21 +45,21 @@ class Slideshow extends React.Component {
                   index={index}
                 >
                   <div class="caption">{slide.caption}</div>
-                  <img src={slide.image} />
+                  <img src={slide.image} alt={slide.caption} />
                 </div>
               );
             })}
-            <a class="prev" onClick={this.previousSlide.bind(this)}>
+            <button class="prev" onClick={this.previousSlide.bind(this)}>
               &#10094;
-            </a>
-            <a class="next" onClick={this.nextSlide.bind(this)}>
+            </button>
+            <button class="next" onClick={this.nextSlide.bind(this)}>
               &#10095;
-            </a>
+            </button>
           </span>
           <div style={{ textAlign: "center" }}>
             <div class="dotbar">
               {this.props.slides.map((slide, index) => {
-                return this.state.currentSlide == index ? (
+                return this.state.currentSlide === index ? (
                   <span
                     class="slide-dot active"
                     onClick={() => this.goToSlide(index)}
@@ -75,14 +75,14 @@ class Slideshow extends React.Component {
           </div>
         </div>
       );
-    else if (this.props.isMobile == 1)
+    else if (this.props.isMobile === 1)
       return (
         <div class="modal-mobile-slideshow">
           <span class="slides">
             {this.props.slides.map((slide, index) => {
-              return this.state.currentSlide == index ? (
+              return this.state.currentSlide === index ? (
                 <div class="slide fade" index={index}>
-                  <img src={slide} />
+                  <img src={slide} alt={"img " + index} />
                 </div>
               ) : (
                 <div
@@ -90,26 +90,26 @@ class Slideshow extends React.Component {
                   style={{ display: "none" }}
                   index={index}
                 >
-                  <img src={slide} />
+                  <img src={slide} alt={"img " + index} />
                 </div>
               );
             })}
             {this.props.slides.length > 1 ? (
-              <a class="prev" onClick={this.previousSlide.bind(this)}>
+              <button class="prev" onClick={this.previousSlide.bind(this)}>
                 &#10094;
-              </a>
+              </button>
             ) : null}
             {this.props.slides.length > 1 ? (
-              <a class="next" onClick={this.nextSlide.bind(this)}>
+              <button class="next" onClick={this.nextSlide.bind(this)}>
                 &#10095;
-              </a>
+              </button>
             ) : null}
           </span>
           {this.props.slides.length > 1 ? (
             <div style={{ textAlign: "center" }}>
               <div class="dotbar">
                 {this.props.slides.map((slide, index) => {
-                  return this.state.currentSlide == index ? (
+                  return this.state.currentSlide === index ? (
                     <span
                       class="slide-dot active"
                       onClick={() => this.goToSlide(index)}
@@ -130,32 +130,32 @@ class Slideshow extends React.Component {
       <div class="modal-slideshow">
         <span class="slides">
           {this.props.slides.map((slide, index) => {
-            return this.state.currentSlide == index ? (
+            return this.state.currentSlide === index ? (
               <div class="slide fade" index={index}>
-                <img src={slide} />
+                <img src={slide} alt={"img " + index} />
               </div>
             ) : (
               <div class="slide fade" style={{ display: "none" }} index={index}>
-                <img src={slide} />
+                <img src={slide} alt={"img " + index} />
               </div>
             );
           })}
           {this.props.slides.length > 1 ? (
-            <a class="prev" onClick={this.previousSlide.bind(this)}>
+            <button class="prev" onClick={this.previousSlide.bind(this)}>
               &#10094;
-            </a>
+            </button>
           ) : null}
           {this.props.slides.length > 1 ? (
-            <a class="next" onClick={this.nextSlide.bind(this)}>
+            <button class="next" onClick={this.nextSlide.bind(this)}>
               &#10095;
-            </a>
+            </button>
           ) : null}
         </span>
         {this.props.slides.length > 1 ? (
           <div style={{ textAlign: "center" }}>
             <div class="dotbar">
               {this.props.slides.map((slide, index) => {
-                return this.state.currentSlide == index ? (
+                return this.state.currentSlide === index ? (
                   <span
                     class="slide-dot active"
                     onClick={() => this.goToSlide(index)}

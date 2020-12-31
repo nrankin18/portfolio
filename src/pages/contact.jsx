@@ -37,7 +37,7 @@ class Contact extends React.Component {
         },
         (error) => {
           console.log(error.text);
-          if (error.text == "The g-recaptcha-response parameter not found") {
+          if (error.text === "The g-recaptcha-response parameter not found") {
             Swal.fire({
               footer:
                 '<a href="mailto:18nrankin@gmail.com">Send me an email directly</a>',
@@ -113,7 +113,7 @@ class Contact extends React.Component {
               <div class="subline"></div>
               <div class="connection">
                 <a href="https://www.facebook.com/nathan.rankin.908">
-                  <img src={Facebook} />
+                  <img src={Facebook} alt="Facebook" />
                 </a>
                 <a href="https://www.facebook.com/nathan.rankin.908">
                   facebook.com/nathan.rankin.908
@@ -121,7 +121,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://www.instagram.com/rankin_n/">
-                  <img src={Instagram} />
+                  <img src={Instagram} alt="Instagram" />
                 </a>
                 <a href="https://www.instagram.com/rankin_n/">
                   instagram.com/rankin_n
@@ -129,7 +129,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://www.linkedin.com/in/nathanrankin/">
-                  <img src={LinkedIn} />
+                  <img src={LinkedIn} alt="LinkedIn" />
                 </a>
                 <a href="https://www.linkedin.com/in/nathanrankin/">
                   linkedin.com/in/nathanrankin
@@ -137,7 +137,7 @@ class Contact extends React.Component {
               </div>
               <div class="connection">
                 <a href="https://github.com/nrankin18">
-                  <img src={GitHub} />
+                  <img src={GitHub} alt="GitHub" />
                 </a>
                 <a href="https://github.com/nrankin18">github.com/nrankin18</a>
               </div>

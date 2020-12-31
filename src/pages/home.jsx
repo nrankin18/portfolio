@@ -42,7 +42,7 @@ class Home extends React.Component {
         <Header isHome={1} />
         <div class="home">
           <div class="banner">
-            <img src={Banner} />
+            <img src={Banner} alt="" />
           </div>
 
           <div class="stripe"></div>
@@ -62,7 +62,7 @@ class Home extends React.Component {
           </span>
           <div class="line"></div>
           <div class="about">
-            <img id="headshot" src={Headshot} />
+            <img id="headshot" src={Headshot} alt="Nathan Rankin" />
             <span class="html-column">
               <span class="html-tag top">{"<p>"}</span>
               <span class="html-tag">{"</p>"}</span>
@@ -154,7 +154,7 @@ class Home extends React.Component {
                     this.openModal(project);
                   }}
                 >
-                  <img src={project.images[0]} />
+                  <img src={project.images[0]} alt={project.name} />
                   <div class="screen">
                     <p>{project.name}</p>
                   </div>

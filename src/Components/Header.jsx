@@ -28,19 +28,23 @@ class Header extends React.Component {
   render() {
     return (
       <div class="header">
-        <img class="logo" src={Logo} />
+        <img class="logo" src={Logo} alt="NR" />
         <nav class="nav">
           <ul>
             <li class="nav-item">
               {this.props.isHome ? (
-                <a onClick={this.homeClicked}>Home</a>
+                <button class="navbutton" onClick={this.homeClicked}>
+                  Home
+                </button>
               ) : (
                 <Link to="">Home</Link>
               )}
             </li>
             <li class="nav-item">
               {this.props.isHome ? (
-                <a onClick={this.experienceClicked}>Experience</a>
+                <button class="navbutton" onClick={this.experienceClicked}>
+                  Experience
+                </button>
               ) : (
                 <HashLink to="/#experience" smooth>
                   Experience
@@ -49,10 +53,14 @@ class Header extends React.Component {
             </li>
             <li class="logo-spacer"></li>
             <li class="nav-item">
-              <Link to="/aviation">Aviation</Link>
+              <Link to="/aviation" class="navbutton">
+                Aviation
+              </Link>
             </li>
             <li class="nav-item">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" class="navbutton">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

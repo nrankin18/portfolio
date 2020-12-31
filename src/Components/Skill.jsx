@@ -5,9 +5,9 @@ class Skill extends React.Component {
   render() {
     if (this.props.href)
       return (
-        <a target="_blank" href={this.props.href}>
+        <a target="_blank" rel="noreferrer" href={this.props.href}>
           <div class="skill">
-            <img src={this.props.icon} />
+            <img src={this.props.icon} alt={this.props.name} />
             <div class="bubble">
               <p>{this.props.name}</p>
             </div>
@@ -17,7 +17,7 @@ class Skill extends React.Component {
     else
       return (
         <div class="skill">
-          <img src={this.props.icon} />
+          <img src={this.props.icon} alt={this.props.name} />
           <div class="bubble">
             <p>{this.props.name}</p>
           </div>
