@@ -188,12 +188,17 @@ nav > ul > li {
   border-width: 0 0 10px;
   border-color: #808080;
   overflow: hidden;
+  position: relative;
 }
 
 .banner > img {
-  width: 100%;
-  position: relative;
-  top: -40%;
+  min-width: 100%;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
 }
 
 .stripe {
