@@ -37,7 +37,9 @@ class Header extends React.Component {
                   Home
                 </button>
               ) : (
-                <Link to="">Home</Link>
+                <Link to="" class="navbutton">
+                  Home
+                </Link>
               )}
             </li>
             <li class="nav-item">
@@ -46,7 +48,7 @@ class Header extends React.Component {
                   Experience
                 </button>
               ) : (
-                <HashLink to="/#experience" smooth>
+                <HashLink to="/#experience" class="navbutton" smooth>
                   Experience
                 </HashLink>
               )}
