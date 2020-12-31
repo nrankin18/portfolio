@@ -8,6 +8,9 @@ import Map from "../components/Map";
 import Destinations from "../components/Destinations";
 
 import Wings from "../img/wings.png";
+import C152 from "../img/c152.png";
+import C172 from "../img/c172.png";
+import P28A from "../img/p28a.png";
 import av1 from "../img/aviation/av1.png";
 import av2 from "../img/aviation/av2.png";
 import av3 from "../img/aviation/av3.png";
@@ -91,19 +94,19 @@ class Aviation extends React.Component {
           </h3>
           <div class="aircraft">
             <div class="ac">
-              <img src="/img/c152.png" />
+              <img src={C152} />
               <span class="ac-id">Cessna 152</span>
               <span class="subline"></span>
               <div class="ac-hours">39.3 hrs</div>
             </div>
             <div class="ac">
-              <img src="/img/c172.png" />
+              <img src={C172} />
               <span class="ac-id">Cessna 172</span>
               <span class="subline"></span>
               <div class="ac-hours">74.6 hrs</div>
             </div>
             <div class="ac">
-              <img src="/img/p28a.png" />
+              <img src={P28A} />
               <span class="ac-id">Piper PA-28</span>
               <span class="subline"></span>
               <div class="ac-hours">40.8 hrs</div>
