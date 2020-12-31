@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactMapGL, { Marker, Source, Layer } from "react-map-gl";
+import ReactMapGL, { Source, Layer } from "react-map-gl";
 import Airports from "../util/airports.json";
 import Routes from "../util/routes.json";
 
