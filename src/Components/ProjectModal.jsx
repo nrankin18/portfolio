@@ -5,7 +5,6 @@ import Skill from "./Skill";
 
 class ProjectModal extends React.Component {
   render() {
-    console.log(this.props.project);
     return (
       <div class="modal">
         <span class="close" onClick={this.props.closeModal}>

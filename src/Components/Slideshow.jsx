@@ -27,7 +27,6 @@ class Slideshow extends React.Component {
   }
 
   render() {
-    console.log(this.props.isMobile);
     if (this.props.isAviation)
       return (
         <div class="aviation-slideshow">

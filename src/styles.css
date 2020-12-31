@@ -26,6 +26,7 @@ body {
   top: 15px;
   left: 50%;
   margin-left: -55px;
+  z-index: 50;
 }
 
 nav > ul {
@@ -51,6 +52,52 @@ nav > ul > li {
   padding-bottom: 5px;
   border: none;
   background: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-nav-item {
+  width: 100%;
+  text-align: center;
+  transition: 1s;
+}
+
+.mobile-nav-menu {
+  position: absolute;
+  width: 100%;
+  background-color: #000000dd;
+  top: -1000%;
+  transition: all 1s;
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.nav-active {
+  display: block !important;
+  top: 100%;
+}
+
+.ham {
+  position: absolute;
+  right: 30px;
+  z-index: 100;
+}
+
+.mobile-nav-item .navbutton {
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
 
 .navbutton:after {
