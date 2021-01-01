@@ -23,13 +23,19 @@ class Header extends React.Component {
       duration: 1500,
       smooth: true,
     });
+    this.setState({
+      mobileDropdownActive: !this.state.mobileDropdownActive,
+    });
   }
 
   experienceClicked() {
     scroller.scrollTo("experience", {
       duration: 1500,
       smooth: true,
-      offset: -90,
+      offset: -130,
+    });
+    this.setState({
+      mobileDropdownActive: !this.state.mobileDropdownActive,
     });
   }
   render() {
@@ -40,7 +46,7 @@ class Header extends React.Component {
           <ul>
             <li class="desktop nav-item">
               {this.props.isHome ? (
-                <button class="navbutton" onClick={this.homeClicked}>
+                <button class="navbutton" onClick={this.homeClicked.bind(this)}>
                   Home
                 </button>
               ) : (
@@ -51,7 +57,10 @@ class Header extends React.Component {
             </li>
             <li class="desktop nav-item">
               {this.props.isHome ? (
-                <button class="navbutton" onClick={this.experienceClicked}>
+                <button
+                  class="navbutton"
+                  onClick={this.experienceClicked.bind(this)}
+                >
                   Experience
                 </button>
               ) : (
@@ -95,7 +104,7 @@ class Header extends React.Component {
           >
             <div className="mobile-nav-item top">
               {this.props.isHome ? (
-                <button class="navbutton" onClick={this.homeClicked}>
+                <button class="navbutton" onClick={this.homeClicked.bind(this)}>
                   Home
                 </button>
               ) : (
@@ -106,7 +115,10 @@ class Header extends React.Component {
             </div>
             <div className="mobile-nav-item">
               {this.props.isHome ? (
-                <button class="navbutton" onClick={this.experienceClicked}>
+                <button
+                  class="navbutton"
+                  onClick={this.experienceClicked.bind(this)}
+                >
                   Experience
                 </button>
               ) : (

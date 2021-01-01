@@ -11,8 +11,11 @@ class Footer extends React.Component {
   render() {
     return (
       <div class="footer">
-        <span class="copyright">Copyright © 2021 Nathan Rankin</span>
-        <span class="connect">
+        <span class="copyright desktop">Copyright © 2021 Nathan Rankin</span>
+        <span class="copyright-mobile mobile">
+          Copyright © 2021 Nathan Rankin
+        </span>
+        <span class="connect desktop">
           <a
             href={process.env.PUBLIC_URL + "/Nathan%20Rankin%20Resume.pdf"}
             download
