@@ -102,7 +102,7 @@ class Header extends React.Component {
                 : " mobile-nav-menu"
             }
           >
-            <div className="mobile-nav-item top">
+            <div className="mobile-nav-item top-nav">
               {this.props.isHome ? (
                 <button class="navbutton" onClick={this.homeClicked.bind(this)}>
                   Home

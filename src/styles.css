@@ -81,7 +81,7 @@ nav > ul > li {
   pointer-events: none;
 }
 
-.top {
+.top-nav {
   padding-top: 50px;
 }
 
@@ -107,6 +107,12 @@ nav > ul > li {
   }
   .mobile {
     display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .desktop-destinations {
+    display: none !important;
   }
 }
 
@@ -984,6 +990,9 @@ nav > ul > li {
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
   transform: scaleY(1);
+  -webkit-transition: -webkit-transform linear;
+  -moz-transition: -moz-transform linear;
+  -o-transition: -o-transform linear;
   transition: transform linear;
 }
 

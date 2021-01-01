@@ -3,6 +3,7 @@ import "../styles.css";
 
 class Destinations extends React.Component {
   componentDidMount() {
+    if (!document.getElementById("board")) return;
     var DepartureBoard = function (element, options) {
       options = options || {};
 
@@ -230,7 +231,7 @@ class Destinations extends React.Component {
   }
 
   render() {
-    return <span id="board" class="destinations" />;
+    return <span id="board" class="destinations desktop-destinations" />;
   }
 }
 
