@@ -9,6 +9,7 @@ import {
 import Home from "./pages/home";
 import Aviation from "./pages/aviation";
 import Contact from "./pages/contact";
+import FETools from "./pages/fetools";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route path="/aviation" component={Aviation} />
         <Route path="/contact" component={Contact} />
+        <Route path="/FETools" component={FETools} />
         <Redirect to="/" />
       </Switch>
     </Router>
