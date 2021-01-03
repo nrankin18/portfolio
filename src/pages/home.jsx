@@ -32,8 +32,12 @@ class Home extends React.Component {
     this.setState({ modalOpen: true, project: project });
   }
 
-  closeModal(project) {
+  closeModal() {
     this.setState({ modalOpen: false });
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   render() {

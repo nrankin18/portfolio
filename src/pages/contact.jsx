@@ -15,6 +15,9 @@ import GitHub from "../img/icons/github.png";
 const recaptchaRef = React.createRef();
 
 class Contact extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   sendEmail = (e) => {
     e.preventDefault();
 
