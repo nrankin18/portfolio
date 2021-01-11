@@ -470,6 +470,16 @@
       "properties": {
         "id": "KLCI"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.8682, 42.4163]
+      },
+      "properties": {
+        "id": "KUGN"
+      }
     }
   ]
 }
