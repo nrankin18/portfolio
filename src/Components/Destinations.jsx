@@ -228,6 +228,13 @@ class Destinations extends React.Component {
       ],
     ];
     board.setValue(displays[0]);
+
+    var i = 1;
+    setInterval(function () {
+      board.setValue(displays[i]);
+      if (i === displays.length - 1) i = 0;
+      else i++;
+    }, 15000);
   }
 
   render() {
