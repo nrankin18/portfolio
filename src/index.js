@@ -9,7 +9,6 @@ import {
 import Home from "./pages/home";
 import Aviation from "./pages/aviation";
 import Contact from "./pages/contact";
-import FETools from "./pages/fetools";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +17,13 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route path="/aviation" component={Aviation} />
         <Route path="/contact" component={Contact} />
-        <Route path="/FETools" component={FETools} />
+        <Route
+          path="/FETools"
+          component={() => {
+            window.location.href = "https://fetools.bvartcc.com/";
+            return null;
+          }}
+        />
         <Redirect to="/" />
       </Switch>
     </Router>
