@@ -480,6 +480,16 @@
       "properties": {
         "id": "KUGN"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.6833611, 41.9391389]
+      },
+      "properties": {
+        "id": "KBDL"
+      }
     }
   ]
 }
