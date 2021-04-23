@@ -490,6 +490,16 @@
       "properties": {
         "id": "KBDL"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.80198, 42.7491161]
+      },
+      "properties": {
+        "id": "KALB"
+      }
     }
   ]
 }
