@@ -1,5 +1,6 @@
 import CO from "../img/flags/co.png";
 import CT from "../img/flags/ct.png";
+import FL from "../img/flags/fl.png";
 import IL from "../img/flags/il.png";
 import IN from "../img/flags/in.png";
 import IA from "../img/flags/ia.png";
@@ -15,6 +16,24 @@ import RI from "../img/flags/ri.png";
 import WA from "../img/flags/wa.png";
 import WI from "../img/flags/wi.png";
 
-const flags = [CO, CT, IL, IN, IA, MA, MI, MO, NE, NH, NY, OK, OR, RI, WA, WI];
+const flags = [
+  CO,
+  CT,
+  FL,
+  IL,
+  IN,
+  IA,
+  MA,
+  MI,
+  MO,
+  NE,
+  NH,
+  NY,
+  OK,
+  OR,
+  RI,
+  WA,
+  WI,
+];
 
 export { flags };
