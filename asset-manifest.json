@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.36eab691.chunk.css",
-    "main.js": "/static/js/main.1aa5e282.chunk.js",
-    "main.js.map": "/static/js/main.1aa5e282.chunk.js.map",
+    "main.js": "/static/js/main.06776de6.chunk.js",
+    "main.js.map": "/static/js/main.06776de6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0197b26b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0197b26b.js.map",
     "static/js/2.35608468.chunk.js": "/static/js/2.35608468.chunk.js",
@@ -10,7 +10,6 @@
     "index.html": "/index.html",
     "static/css/main.36eab691.chunk.css.map": "/static/css/main.36eab691.chunk.css.map",
     "static/js/2.35608468.chunk.js.LICENSE.txt": "/static/js/2.35608468.chunk.js.LICENSE.txt",
-    "static/media/atom.14720ad8.png": "/static/media/atom.14720ad8.png",
     "static/media/av1.16e45793.png": "/static/media/av1.16e45793.png",
     "static/media/av2.5124dea3.png": "/static/media/av2.5124dea3.png",
     "static/media/av3.be14a361.png": "/static/media/av3.be14a361.png",
@@ -25,7 +24,10 @@
     "static/media/bccss4.79971648.png": "/static/media/bccss4.79971648.png",
     "static/media/bva.71821a46.png": "/static/media/bva.71821a46.png",
     "static/media/c172.f5af3552.png": "/static/media/c172.f5af3552.png",
+    "static/media/cs.7f58ab59.png": "/static/media/cs.7f58ab59.png",
     "static/media/ct.c9f78951.png": "/static/media/ct.c9f78951.png",
+    "static/media/devops.dac76f4f.png": "/static/media/devops.dac76f4f.png",
+    "static/media/dotnet.5d28e39a.png": "/static/media/dotnet.5d28e39a.png",
     "static/media/et1.5fb1c12c.png": "/static/media/et1.5fb1c12c.png",
     "static/media/et2.8a406f50.png": "/static/media/et2.8a406f50.png",
     "static/media/et3.39c403cc.png": "/static/media/et3.39c403cc.png",
@@ -42,7 +44,6 @@
     "static/media/lindbergh3.309e6708.png": "/static/media/lindbergh3.309e6708.png",
     "static/media/lindbergh4.fbd7ed13.png": "/static/media/lindbergh4.fbd7ed13.png",
     "static/media/lindbergh5.2346e420.png": "/static/media/lindbergh5.2346e420.png",
-    "static/media/linux.49c05b4b.png": "/static/media/linux.49c05b4b.png",
     "static/media/mapbox.62106efc.png": "/static/media/mapbox.62106efc.png",
     "static/media/mysql.a1b1fb99.png": "/static/media/mysql.a1b1fb99.png",
     "static/media/p28a.ec072198.png": "/static/media/p28a.ec072198.png",
@@ -66,14 +67,16 @@
     "static/media/tar2.f46e1388.png": "/static/media/tar2.f46e1388.png",
     "static/media/tar3.2d21121e.png": "/static/media/tar3.2d21121e.png",
     "static/media/tar4.256bd2b0.png": "/static/media/tar4.256bd2b0.png",
+    "static/media/tdls1.c8e7dde3.png": "/static/media/tdls1.c8e7dde3.png",
+    "static/media/tdls2.76e6e5b5.png": "/static/media/tdls2.76e6e5b5.png",
+    "static/media/vs.828b61e7.png": "/static/media/vs.828b61e7.png",
     "static/media/vstudio.a32ef2b6.png": "/static/media/vstudio.a32ef2b6.png",
-    "static/media/web.52358dd1.png": "/static/media/web.52358dd1.png",
-    "static/media/xcode.b320c9ac.png": "/static/media/xcode.b320c9ac.png"
+    "static/media/web.52358dd1.png": "/static/media/web.52358dd1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0197b26b.js",
     "static/js/2.35608468.chunk.js",
     "static/css/main.36eab691.chunk.css",
-    "static/js/main.1aa5e282.chunk.js"
+    "static/js/main.06776de6.chunk.js"
   ]
 }
