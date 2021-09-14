@@ -36,9 +36,13 @@ import et6 from "../img/projects/et6.png";
 import ids from "../img/projects/ids.png";
 import wx from "../img/projects/preflight.png";
 import fcd from "../img/projects/fcd.png";
+
 import strip1 from "../img/projects/strip1.png";
 import strip2 from "../img/projects/strip2.png";
 import strip3 from "../img/projects/strip3.png";
+
+import tdls1 from "../img/projects/tdls1.png"
+import tdls2 from "../img/projects/tdls2.png"
 
 import HTML from "../img/icons/html.png";
 import CSS from "../img/icons/css.png";
@@ -131,6 +135,30 @@ const projects = [
     isMobile: 0,
     description:
       'I was contracted to create an accurate web-based simulation of FAA flight progress strips for a startup pilot and air traffic control training network. This network allows pilots on flight simulators to fly with air traffic control supported by technologies such as the flight strip desk. The flight strip desks are connected "live" via SignalR so strip movements, edits and deletions are reflected across clients in real time. Flight strips are automatically printed 35 minutes prior to the filed departure time, and can be annotated, or moved under customizable separators for an efficient workflow. The barcode is also functional and can be scanned to send a departure message to the central flight processing server.',
+    line1Text: "Languages used:",
+    line1Icons: [
+      { name: "HTML", icon: HTML },
+      { name: "CSS", icon: CSS },
+      { name: "JavaScript", icon: JS },
+    ],
+    line2Text: "Technologies used:",
+    line2Icons: [
+      {
+        name: "React",
+        icon: React,
+      },
+      {
+        name: "SignalR",
+        icon: SignalR,
+      },
+    ],
+  },
+  {
+    name: "TDLS Simulator",
+    images: [tdls1, tdls2],
+    isMobile: 0,
+    description:
+      'I was contracted to create an accurate web-based simulation of the FAA\'s Tower Data Link Services (TDLS) for a startup pilot and air traffic control training network. This network allows pilots on flight simulators to fly with air traffic control supported by technologies such as TDLS. TDLS gives controllers the ability to issue clearances directly to pilot\'s flight management computers through the CPDLC network. Flight plans are automatically forwarded and updated in TDLS through a SignalR connection.',
     line1Text: "Languages used:",
     line1Icons: [
       { name: "HTML", icon: HTML },

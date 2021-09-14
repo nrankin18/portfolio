@@ -183,7 +183,6 @@ class Home extends React.Component {
                 {
                   name: "Courses include:",
                   objectives: [
-                    "Intro to Computer Science (TA)",
                     "Data Structures (TA)",
                     "Computer Systems",
                     "Logic and Computation",
@@ -194,6 +193,7 @@ class Home extends React.Component {
                     "Object-Oriented Design (TA)",
                     "Robotics",
                     "Operating Systems",
+                    "Technology and Culture",
                     "Electricity and Magnetism",
                     "Waves and Vibrations",
                     "Modern Physics",

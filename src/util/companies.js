@@ -1,5 +1,6 @@
 import BCLogo from "../img/logos/bc.png";
 import BVALogo from "../img/logos/bva.png";
+import SDLogo from "../img/logos/sd.png";
 import SCALogo from "../img/logos/sca.png";
 
 const companies = [
@@ -12,18 +13,34 @@ const companies = [
       {
         name: "Computer Science Teaching Assistant",
         objectives: [
-          "Facilitates one-on-one and group tutorial sessions",
-          "Grades and provides feedback for 80 students' weekly problem sets",
-          "Facilitates student collaboration via an online forum",
+          "Facilitated one-on-one and group tutorial sessions",
+          "Graded and provided feedback for 80 students' weekly problem sets",
+          "Facilitated student collaboration via an online forum",
         ],
       },
       {
         name: "Tech Team Lead, Computer Science Society",
         objectives: [
-          `Organizes BC’s annual 24-hour hackathon: <a target="_blank" href="http://hacktheheights.org/">Hack the Heights</a>`,
-          `Developed and maintains society's <a target="_blank" href="http://bccss.io">website</a>`,
-          "Plans bi-weekly workshops and technical events",
+          `Organized BC’s annual 24-hour hackathon: <a target="_blank" href="http://hacktheheights.org/">Hack the Heights</a>`,
+          `Developed and maintained society's <a target="_blank" href="http://bccss.io">website</a>`,
+          "Planned bi-weekly workshops and technical events",
         ],
+      },
+    ],
+  },
+  {
+    name: "Satcom Direct",
+    logo: SDLogo,
+    time: "June, 2021 - Present",
+    location: "Melbourne, FL",
+    positions: [
+      {
+        name: "Junior Software Engineer",
+        objectives: []
+      },
+      {
+        name: "Software Engineering Intern",
+        objectives: ["Designed and implemented numerous Angular webpages and associated ASP.NET API functionality for internal support website"]
       },
     ],
   },
