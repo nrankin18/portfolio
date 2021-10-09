@@ -5,6 +5,7 @@ import IL from "../img/flags/il.png";
 import IN from "../img/flags/in.png";
 import IA from "../img/flags/ia.png";
 import MA from "../img/flags/ma.png";
+import ME from "../img/flags/me.png";
 import MI from "../img/flags/mi.png";
 import MO from "../img/flags/mo.png";
 import NE from "../img/flags/ne.png";
@@ -24,6 +25,7 @@ const flags = [
   IN,
   IA,
   MA,
+  ME,
   MI,
   MO,
   NE,

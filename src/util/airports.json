@@ -520,6 +520,26 @@
       "properties": {
         "id": "KSGJ"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.8232778, 43.0779444]
+      },
+      "properties": {
+        "id": "KPSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.3086164, 43.6456435]
+      },
+      "properties": {
+        "id": "KPWM"
+      }
     }
   ]
 }
