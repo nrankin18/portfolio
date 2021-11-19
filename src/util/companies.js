@@ -36,7 +36,7 @@ const companies = [
     positions: [
       {
         name: "Junior Software Engineer",
-        objectives: []
+        objectives: ["Work on Flight Deck Fusion team connecting internal and FAA services to the flight deck"]
       },
       {
         name: "Software Engineering Intern",
@@ -47,24 +47,16 @@ const companies = [
   {
     logo: BVALogo,
     name: "Boston Virtual ARTCC",
-    time: "August, 2017 - Present",
+    time: "August, 2017 - November, 2021",
     location: "Boston, MA",
     positions: [
       {
         name: "Facility Engineer",
         objectives: [
-          "Assist in the continual development of community management website with a user base of over 1500 members featuring exam distribution and test corrections, event management, shift sign-ups, and roster management",
-          "Manage and develop community web tools including an Information Display System that interfaces with FAA databases, weather information, aeronautical charts and live airport information",
-          "Develops and maintains a library of 90 radar client sector files",
+          "Assisted in the development of community management website with a user base of over 1500 members featuring exam distribution and test corrections, event management, shift sign-ups, and roster management",
+          "Managed and developed community web tools including an Information Display System that interfaces with FAA databases, weather information, aeronautical charts and live airport information",
         ],
-      },
-      {
-        name: "ATC Mentor",
-        objectives: [
-          "Works with students learning air traffic control procedures and issues certifications to control on the VATSIM network",
-          "Manages internal exam center including test correction review",
-        ],
-      },
+      }
     ],
   },
   {

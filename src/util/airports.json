@@ -540,6 +540,56 @@
       "properties": {
         "id": "KPWM"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.7276850, 41.9086175]
+      },
+      "properties": {
+        "id": "KPYM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.9578361, 41.6765661]
+      },
+      "properties": {
+        "id": "KEWB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.4121389, 41.5971389]
+      },
+      "properties": {
+        "id": "KOQU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.9496261, 43.5297303]
+      },
+      "properties": {
+        "id": "KRUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.2707778, 42.8983889]
+      },
+      "properties": {
+        "id": "KEEN"
+      }
     }
   ]
 }

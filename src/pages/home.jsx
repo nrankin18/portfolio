@@ -74,8 +74,8 @@ class Home extends React.Component {
                 highly motivated and dedicated student pursuing a B.S. in
                 computer science at Boston College with minors in physics and
                 music. I have experience in a wide variety of software
-                engineering topics including Java, iOS, and full-stack web
-                development. Additionally, I have a passion for aviation and
+                engineering topics including full-stack web
+                development, React, Angular, C# .NET, ASP.NET, SQL and Java. Additionally, I have a passion for aviation and
                 hold a private pilot's license with an instrument rating. This
                 hobby has inspired many of my software development projects,
                 including my role as Facility Engineer for Boston Virtual ARTCC.
@@ -194,6 +194,7 @@ class Home extends React.Component {
                     "Robotics",
                     "Operating Systems",
                     "Technology and Culture",
+                    "Software Engineering",
                     "Electricity and Magnetism",
                     "Waves and Vibrations",
                     "Modern Physics",

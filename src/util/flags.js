@@ -14,6 +14,7 @@ import NY from "../img/flags/ny.png";
 import OK from "../img/flags/ok.png";
 import OR from "../img/flags/or.png";
 import RI from "../img/flags/ri.png";
+import VT from "../img/flags/vt.png";
 import WA from "../img/flags/wa.png";
 import WI from "../img/flags/wi.png";
 
@@ -34,6 +35,7 @@ const flags = [
   OK,
   OR,
   RI,
+  VT,
   WA,
   WI,
 ];
