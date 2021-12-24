@@ -590,6 +590,36 @@
       "properties": {
         "id": "KEEN"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.1798333, 43.2118611]
+      },
+      "properties": {
+        "id": "KLNR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.2803592, 41.6693372]
+      },
+      "properties": {
+        "id": "KHYA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.6138744, 41.3934175]
+      },
+      "properties": {
+        "id": "KMVY"
+      }
     }
   ]
 }

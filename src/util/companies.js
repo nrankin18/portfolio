@@ -5,17 +5,34 @@ import SCALogo from "../img/logos/sca.png";
 
 const companies = [
   {
+    name: "Satcom Direct",
+    logo: SDLogo,
+    time: "June, 2021 - Present",
+    location: "Melbourne, FL",
+    positions: [
+      {
+        name: "Junior Software Engineer",
+        objectives: [
+          "Work on aircraft movement reports and flight deck connectivity teams", 
+          "Develop services that interface between aircraft and data providers including FAA TDLS and CPDLC"]
+      },
+      {
+        name: "Software Engineering Intern",
+        objectives: ["Designed, implemented, and tested internal Angular support website and associated ASP.NET API", "Learned Agile software development methodology"]
+      },
+    ],
+  },
+  {
     name: "Boston College",
     logo: BCLogo,
-    time: "January, 2019 - Present",
+    time: "January, 2019 - May 2021",
     location: "Chestnut Hill, MA",
     positions: [
       {
         name: "Computer Science Teaching Assistant",
         objectives: [
           "Facilitated one-on-one and group tutorial sessions",
-          "Graded and provided feedback for 80 students' weekly problem sets",
-          "Facilitated student collaboration via an online forum",
+          "Graded and provided feedback for 80 student’s weekly Java problem sets",
         ],
       },
       {
@@ -29,32 +46,23 @@ const companies = [
     ],
   },
   {
-    name: "Satcom Direct",
-    logo: SDLogo,
-    time: "June, 2021 - Present",
-    location: "Melbourne, FL",
-    positions: [
-      {
-        name: "Junior Software Engineer",
-        objectives: ["Work on Flight Deck Fusion team connecting internal and FAA services to the flight deck"]
-      },
-      {
-        name: "Software Engineering Intern",
-        objectives: ["Designed and implemented numerous Angular webpages and associated ASP.NET API functionality for internal support website"]
-      },
-    ],
-  },
-  {
     logo: BVALogo,
     name: "Boston Virtual ARTCC",
-    time: "August, 2017 - November, 2021",
-    location: "Boston, MA",
+    time: "May, 2018 - Present",
+    location: "Boston, MA (pro-bono)",
     positions: [
+      {
+        name: "Deputy Air Traffic Manager",
+        objectives: [
+          "Manages roster of over 150 active volunteers",
+          "Collaborates with VATUSA Northeastern region to develop LOAs and inter-ARTCC events",
+        ],
+      },
       {
         name: "Facility Engineer",
         objectives: [
-          "Assisted in the development of community management website with a user base of over 1500 members featuring exam distribution and test corrections, event management, shift sign-ups, and roster management",
-          "Managed and developed community web tools including an Information Display System that interfaces with FAA databases, weather information, aeronautical charts and live airport information",
+          "Managed and updated community web tools including an Information Display System that provides access to FAA databases, weather information, aeronautical charts, and live airport information",
+          "Created video maps and maintained navigation databases sourced from FAA FOIA requests",
         ],
       }
     ],
