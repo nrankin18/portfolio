@@ -2,19 +2,32 @@ import BCLogo from "../img/logos/bc.png";
 import BVALogo from "../img/logos/bva.png";
 import SDLogo from "../img/logos/sd.png";
 import SCALogo from "../img/logos/sca.png";
+import ViasatLogo from '../img/logos/viasat.png'
 
 const companies = [
   {
-    name: "Satcom Direct",
+    name: "Viasat, Inc.",
+    logo: ViasatLogo,
+    time: "June, 2022 - Present",
+    location: "Boston, MA",
+    positions: [
+      {
+        name: "Software Engineer",
+        objectives: []
+      }
+    ],
+  },
+  {
+    name: "Satcom Direct, Inc.",
     logo: SDLogo,
-    time: "June, 2021 - Present",
+    time: "June, 2021 - April, 2022",
     location: "Melbourne, FL",
     positions: [
       {
         name: "Junior Software Engineer",
         objectives: [
-          "Work on aircraft movement reports and flight deck connectivity teams", 
-          "Develop services that interface between aircraft and data providers including FAA TDLS and CPDLC"]
+          "Worked on aircraft movement reports and flight deck connectivity teams", 
+          "Developed services that interface between aircraft and data providers including FAA TDLS and CPDLC"]
       },
       {
         name: "Software Engineering Intern",
@@ -68,7 +81,7 @@ const companies = [
     ],
   },
   {
-    name: "Spring City Aviation",
+    name: "Spring City Aviation, Inc.",
     logo: SCALogo,
     time: "May, 2019 - August, 2019",
     location: "Milwaukee, WI",

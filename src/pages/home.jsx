@@ -176,7 +176,7 @@ class Home extends React.Component {
               name="Boston College"
               logo={BCLogo}
               detail="Bachelor of Science - Computer Science, Minor in Physics, Minor in Music"
-              time="2018 - 2022 (expected)"
+              time="2018 - 2022"
               positions={[
                 { name: "Sophomore Scholar", objectives: [] },
                 { name: "Dean's List First Honors", objectives: [] },

@@ -890,6 +890,36 @@
           [-71.1729, 42.1905]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-72.6494444, 41.7367222],
+          [-71.1729, 42.1905]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-72.6494444, 41.7367222],
+          [-72.2884978, 42.5699975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.1729, 42.1905],
+          [-72.2884978, 42.5699975]
+        ]
+      }
     }
   ]
 }

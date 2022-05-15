@@ -620,6 +620,26 @@
       "properties": {
         "id": "KMVY"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.6494444, 41.7367222]
+      },
+      "properties": {
+        "id": "KHFD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.2884978, 42.5699975]
+      },
+      "properties": {
+        "id": "KORE"
+      }
     }
   ]
 }
