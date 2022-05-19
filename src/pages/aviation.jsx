@@ -92,7 +92,7 @@ class Aviation extends React.Component {
           <h3 class="subsection">
             <span class="aviation-section-text">Total Time:</span>
           </h3>
-          <div class="hours">195 .1 hrs</div>
+          <div class="hours">197.1 hrs</div>
           <h3 class="subsection">
             <span class="aviation-subsection-text">Top-Time Aircraft:</span>
           </h3>
@@ -113,7 +113,7 @@ class Aviation extends React.Component {
               <img src={P28A} alt="" />
               <span class="ac-id">Piper PA-28</span>
               <span class="subline"></span>
-              <div class="ac-hours">78.2 hrs</div>
+              <div class="ac-hours">80.2 hrs</div>
             </div>
           </div>
         </div>

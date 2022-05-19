@@ -640,6 +640,26 @@
       "properties": {
         "id": "KORE"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.2207222, 42.0722778]
+      },
+      "properties": {
+        "id": "KPVC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.6730199, 42.0974988]
+      },
+      "properties": {
+        "id": "KGHG"
+      }
     }
   ]
 }
