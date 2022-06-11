@@ -545,7 +545,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.7276850, 41.9086175]
+        "coordinates": [-70.727685, 41.9086175]
       },
       "properties": {
         "id": "KPYM"
@@ -659,6 +659,26 @@
       },
       "properties": {
         "id": "KGHG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.0451389, 41.3300556]
+      },
+      "properties": {
+        "id": "KGON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.6318119, 40.8436186]
+      },
+      "properties": {
+        "id": "KFOK"
       }
     }
   ]

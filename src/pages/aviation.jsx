@@ -44,15 +44,10 @@ class Aviation extends React.Component {
           <div class="aviation-intro">
             <div class="aviation-about">
               <p>
-                Aviation has always fascinated me. At the age of 10, I went for
-                my first introductory flight in a small general-aviation
-                aircraft and made it my goal to earn a pilot's license. After
-                turning 17, I became a certified private pilot and later added
-                an instrument rating and complex endorsement to my certificate.
-                Since then I have seen many amazing sights from the air
-                including the skyline of Chicago, the peaks of the Cascades, and
-                the Massachusetts cape, all while sharing my passion with
-                friends and family.
+                Aviation has always fascinated me. At the age of 10, I went for my first introductory flight in a small general-aviation aircraft and
+                made it my goal to earn a pilot's license. After turning 17, I became a certified private pilot and later added an instrument rating
+                and complex endorsement to my certificate. Since then I have seen many amazing sights from the air including the skyline of Chicago,
+                the peaks of the Cascades, and the Massachusetts cape, all while sharing my passion with friends and family.
               </p>
               <img src={Wings} alt="" />
             </div>
@@ -92,7 +87,7 @@ class Aviation extends React.Component {
           <h3 class="subsection">
             <span class="aviation-section-text">Total Time:</span>
           </h3>
-          <div class="hours">197.1 hrs</div>
+          <div class="hours">200.0 hrs</div>
           <h3 class="subsection">
             <span class="aviation-subsection-text">Top-Time Aircraft:</span>
           </h3>
@@ -113,7 +108,7 @@ class Aviation extends React.Component {
               <img src={P28A} alt="" />
               <span class="ac-id">Piper PA-28</span>
               <span class="subline"></span>
-              <div class="ac-hours">80.2 hrs</div>
+              <div class="ac-hours">83.1 hrs</div>
             </div>
           </div>
         </div>
