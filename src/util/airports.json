@@ -680,6 +680,46 @@
       "properties": {
         "id": "KFOK"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.9478889, 43.9911389]
+      },
+      "properties": {
+        "id": "KIZG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.708, 43.3938056]
+      },
+      "properties": {
+        "id": "KSFM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5140944, 42.7824139]
+      },
+      "properties": {
+        "id": "KASH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.43575, 42.9328056]
+      },
+      "properties": {
+        "id": "KMHT"
+      }
     }
   ]
 }
