@@ -720,6 +720,36 @@
       "properties": {
         "id": "KMHT"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.1235333, 42.7170422]
+      },
+      "properties": {
+        "id": "KLWM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.5620964, 44.2034892]
+      },
+      "properties": {
+        "id": "KMPV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.3041944, 43.6261111]
+      },
+      "properties": {
+        "id": "KLEB"
+      }
     }
   ]
 }
