@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@sweetalert/with-react": "^0.1.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
@@ -20,8 +19,8 @@
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
     "react-scripts": "4.0.1",
-    "react-scroll": "^1.8.1",
-    "sweetalert2": "^10.12.6",
+    "react-scroll": "^1.8.7",
+    "sweetalert2": "^10.16.9",
     "sweetalert2-react-content": "^3.2.2",
     "web-vitals": "^0.2.4"
   },
