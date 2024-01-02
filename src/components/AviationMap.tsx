@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactMapGL, { Layer, Source } from "react-map-gl";
-import Airports from "../util/airports.json";
-import Routes from "../util/routes.json";
+import Airports from "../data/airports.json";
+import Routes from "../data/routes.json";
 
 import "../styles.css";
 
@@ -19,7 +19,7 @@ export default function AviationMap() {
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken="pk.eyJ1IjoiMThucmFua2luIiwiYSI6ImNramE0Z3NjNzQyMzgycm0waGVwaWtoYXAifQ.J-FNw6oSKyAekORi6NfHkg"
-        onViewportChange={(viewport) => {
+        onViewportChange={(viewport: any) => {
           setViewport(viewport);
         }}
       >

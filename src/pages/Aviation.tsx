@@ -1,11 +1,11 @@
 import React from "react";
-import AviationMap from "../Components/AviationMap.jsx";
-import Destinations from "../Components/Destinations";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import Slideshow from "../Components/Slideshow";
+import AviationMap from "../Components/AviationMap.js";
+import Destinations from "../Components/Destinations.js";
+import Footer from "../Components/Footer.js";
+import Header from "../Components/Header.js";
+import Slideshow from "../Components/Slideshow.js";
+import { flags } from "../data/flags.js";
 import "../styles.css";
-import { flags } from "../util/flags.js";
 
 import av1 from "../img/aviation/av1.png";
 import av2 from "../img/aviation/av2.png";
@@ -44,10 +44,15 @@ class Aviation extends React.Component {
           <div class="aviation-intro">
             <div class="aviation-about">
               <p>
-                Aviation has always fascinated me. At the age of 10, I went for my first introductory flight in a small general-aviation aircraft and
-                made it my goal to earn a pilot's license. After turning 17, I became a certified private pilot and later added an instrument rating
-                and complex endorsement to my certificate. Since then I have seen many amazing sights from the air including the skyline of Chicago,
-                the peaks of the Cascades, and the Massachusetts cape, all while sharing my passion with friends and family.
+                Aviation has always fascinated me. At the age of 10, I went for
+                my first introductory flight in a small general-aviation
+                aircraft and made it my goal to earn a pilot's license. After
+                turning 17, I became a certified private pilot and later added
+                an instrument rating and complex endorsement to my certificate.
+                Since then I have seen many amazing sights from the air
+                including the skyline of Chicago, the peaks of the Cascades, and
+                the Massachusetts cape, all while sharing my passion with
+                friends and family.
               </p>
               <img src={Wings} alt="" />
             </div>

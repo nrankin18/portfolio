@@ -1,16 +1,16 @@
 import React from "react";
-import "../styles.css";
-import Company from "../Components/Company.jsx";
-import Skill from "../Components/Skill.jsx";
-import ProjectModal from "../Components/ProjectModal.jsx";
-import { companies } from "../util/companies.js";
-import { skills } from "../util/skills.js";
-import { projects } from "../util/projects.js";
 import * as Scroll from "react-scroll";
+import Company from "../Components/Company.js";
+import ProjectModal from "../Components/ProjectModal.js";
+import Skill from "../Components/Skill.js";
+import { companies } from "../data/companies.js";
+import { projects } from "../data/projects.js";
+import { skills } from "../data/skills.js";
+import "../styles.css";
 
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import Modal from "react-modal";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 import Banner from "../img/banner.png";
 import Headshot from "../img/headshot.png";
@@ -74,12 +74,13 @@ class Home extends React.Component {
                 highly motivated and dedicated student pursuing a B.S. in
                 computer science at Boston College with minors in physics and
                 music. I have experience in a wide variety of software
-                engineering topics including full-stack web
-                development, React, Angular, C# .NET, ASP.NET, SQL and Java. Additionally, I have a passion for aviation and
-                hold a private pilot's license with an instrument rating. This
-                hobby has inspired many of my software development projects,
-                including my role as Facility Engineer for Boston Virtual ARTCC.
-                Feel free to explore my website and learn more about me.
+                engineering topics including full-stack web development, React,
+                Angular, C# .NET, ASP.NET, SQL and Java. Additionally, I have a
+                passion for aviation and hold a private pilot's license with an
+                instrument rating. This hobby has inspired many of my software
+                development projects, including my role as Facility Engineer for
+                Boston Virtual ARTCC. Feel free to explore my website and learn
+                more about me.
               </p>
               <span class="html-tag">{"</p>"}</span>
             </div>

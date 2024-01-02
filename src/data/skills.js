@@ -1,16 +1,16 @@
-import Java from "../img/icons/java.png";
-import React from "../img/icons/react.png";
-import Angular from "../img/icons/angular.png"
-import CS from "../img/icons/cs.png"
-import DevOps from "../img/icons/devops.png"
-import HTML from "../img/icons/html.png";
-import VS from "../img/icons/vs.png";
-import CSS from "../img/icons/css.png";
-import JS from "../img/icons/js.png";
-import GitHub from "../img/icons/git.png";
+import Angular from "../img/icons/angular.png";
 import Atlassian from "../img/icons/at.png";
-import VSC from "../img/icons/vstudio.png";
+import CS from "../img/icons/cs.png";
+import CSS from "../img/icons/css.png";
+import DevOps from "../img/icons/devops.png";
 import DotNet from "../img/icons/dotnet.png";
+import GitHub from "../img/icons/git.png";
+import HTML from "../img/icons/html.png";
+import Java from "../img/icons/java.png";
+import JS from "../img/icons/js.png";
+import React from "../img/icons/react.png";
+import VS from "../img/icons/vs.png";
+import VSC from "../img/icons/vstudio.png";
 
 const skills = [
   [
@@ -33,3 +33,4 @@ const skills = [
 ];
 
 export { skills };
+
