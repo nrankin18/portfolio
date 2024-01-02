@@ -1,32 +1,25 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter,
   Route,
-  Redirect,
+  Routes,
 } from "react-router-dom";
-import Home from "./pages/home";
 import Aviation from "./pages/aviation";
 import Contact from "./pages/contact";
+import Home from "./pages/home";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root") );
+
+root.render(
   <React.StrictMode>
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/aviation" component={Aviation} />
-        <Route path="/contact" component={Contact} />
-        <Route
-          path="/FETools"
-          component={() => {
-            window.location.href = "https://fetools.bvartcc.com/";
-            return null;
-          }}
-        />
-        <Redirect to="/" />
-      </Switch>
-    </Router>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/aviation" element={<Aviation />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );

@@ -1,16 +1,12 @@
 import React from "react";
-import "../styles.css";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-import Slideshow from "../Components/Slideshow";
-import { flags } from "../util/flags.js";
-import Map from "../Components/Map";
+import AviationMap from "../Components/AviationMap.jsx";
 import Destinations from "../Components/Destinations";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import Slideshow from "../Components/Slideshow";
+import "../styles.css";
+import { flags } from "../util/flags.js";
 
-import Wings from "../img/wings.png";
-import C152 from "../img/c152.png";
-import C172 from "../img/c172.png";
-import P28A from "../img/p28a.png";
 import av1 from "../img/aviation/av1.png";
 import av2 from "../img/aviation/av2.png";
 import av3 from "../img/aviation/av3.png";
@@ -18,6 +14,10 @@ import av4 from "../img/aviation/av4.png";
 import av5 from "../img/aviation/av5.png";
 import av6 from "../img/aviation/av6.png";
 import av7 from "../img/aviation/av7.png";
+import C152 from "../img/c152.png";
+import C172 from "../img/c172.png";
+import P28A from "../img/p28a.png";
+import Wings from "../img/wings.png";
 
 class Aviation extends React.Component {
   constructor(props) {
@@ -71,7 +71,7 @@ class Aviation extends React.Component {
           <br />
           <div class="subline"></div>
           <div class="flags">
-            {flags.map((flag) => {
+            {flags.slice(0, flags.length / 2).map((flag) => {
               return (
                 <div class="flag">
                   <img src={flag} alt="" />
@@ -79,7 +79,17 @@ class Aviation extends React.Component {
               );
             })}
           </div>
-          <Map />
+          <div class="subline"></div>
+          <div class="flags">
+            {flags.slice(flags.length / 2, flags.length).map((flag) => {
+              return (
+                <div class="flag">
+                  <img src={flag} alt="" />
+                </div>
+              );
+            })}
+          </div>
+          <AviationMap />
           <Destinations />
           <br />
           <br />

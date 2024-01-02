@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import ReactMapGL, { Source, Layer } from "react-map-gl";
+import ReactMapGL, { Layer, Source } from "react-map-gl";
 import Airports from "../util/airports.json";
 import Routes from "../util/routes.json";
 
 import "../styles.css";
 
-export default function Map() {
+export default function AviationMap() {
   const [viewport, setViewport] = useState({
     latitude: 39.833,
     longitude: -98.583,

@@ -1070,6 +1070,196 @@
           [-72.3041944, 43.6261111]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.1729, 42.1905],
+          [-71.289, 42.4699444]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.7457088, 42.2229276],
+          [-84.6086389, 38.0367500]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.6086389, 38.0367500],
+          [-86.7750542, 34.6371969]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-86.7750542, 34.6371969],
+          [-85.8963389, 39.2619150]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.8963389, 39.2619150],
+          [-83.7457088, 42.2229276]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.7457088, 42.2229276],
+          [-79.3961111, 43.6275000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.3961111, 43.6275000],
+          [-83.0101739, 42.4093275]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.0101739, 42.4093275],
+          [-83.7457088, 42.2229276]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.7457088, 42.2229276],
+          [-82.8921592, 39.9969467]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.7457088, 42.2229276],
+          [-79.9175469, 39.6435953]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.9175469, 39.6435953],
+          [-77.0076667, 39.6082778]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.0076667, 39.6082778],
+          [-81.8920942, 39.9444461]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-81.8920942, 39.9444461],
+          [-83.7457088, 42.2229276]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-83.7457088, 42.2229276],
+          [-80.1739444, 42.0830833]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-80.1739444, 42.0830833],
+          [-74.1048333, 41.5041111]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.1048333, 41.5041111],
+          [-72.1802222, 41.7440278]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-72.1802222, 41.7440278],
+          [-71.9009722, 41.8197500]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.9009722, 41.8197500],
+          [-71.1729, 42.1905]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.1729, 42.1905],
+          [-71.5180119, 42.4603854]
+        ]
+      }
     }
   ]
 }

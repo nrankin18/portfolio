@@ -750,6 +750,146 @@
       "properties": {
         "id": "KLEB"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.6086389, 38.0367500]
+      },
+      "properties": {
+        "id": "KLEX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.7750542, 34.6371969]
+      },
+      "properties": {
+        "id": "KHSV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.8963389, 39.2619150]
+      },
+      "properties": {
+        "id": "KBAK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3961111, 43.6275000]
+      },
+      "properties": {
+        "id": "CYTZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.0101739, 42.4093275]
+      },
+      "properties": {
+        "id": "KDET"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.8921592, 39.9969467]
+      },
+      "properties": {
+        "id": "KCMH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.9175469, 39.6435953]
+      },
+      "properties": {
+        "id": "KMGW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0076667, 39.6082778]
+      },
+      "properties": {
+        "id": "KDMW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.8920942, 39.9444461]
+      },
+      "properties": {
+        "id": "KZZV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1739444, 42.0830833]
+      },
+      "properties": {
+        "id": "KERI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.1048333, 41.5041111]
+      },
+      "properties": {
+        "id": "KSWF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.1802222, 41.7440278]
+      },
+      "properties": {
+        "id": "KIJD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.9009722, 41.8197500]
+      },
+      "properties": {
+        "id": "KLZD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5180119, 42.4603854]
+      },
+      "properties": {
+        "id": "6B6"
+      }
     }
   ]
 }

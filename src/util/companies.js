@@ -1,8 +1,8 @@
 import BCLogo from "../img/logos/bc.png";
 import BVALogo from "../img/logos/bva.png";
-import SDLogo from "../img/logos/sd.png";
 import SCALogo from "../img/logos/sca.png";
-import ViasatLogo from '../img/logos/viasat.png'
+import SDLogo from "../img/logos/sd.png";
+import ViasatLogo from '../img/logos/viasat.png';
 
 const companies = [
   {
@@ -45,13 +45,13 @@ const companies = [
         name: "Computer Science Teaching Assistant",
         objectives: [
           "Facilitated one-on-one and group tutorial sessions",
-          "Graded and provided feedback for 80 student’s weekly Java problem sets",
+          "Graded and provided feedback for 80 student's weekly Java problem sets",
         ],
       },
       {
         name: "Tech Team Lead, Computer Science Society",
         objectives: [
-          `Organized BC’s annual 24-hour hackathon: <a target="_blank" href="http://hacktheheights.org/">Hack the Heights</a>`,
+          `Organized BC's annual 24-hour hackathon: <a target="_blank" href="http://hacktheheights.org/">Hack the Heights</a>`,
           `Developed and maintained society's <a target="_blank" href="http://bccss.io">website</a>`,
           "Planned bi-weekly workshops and technical events",
         ],
@@ -90,7 +90,7 @@ const companies = [
         name: "Customer Service Representative",
         objectives: [
           "Organized FAR part 135 charter operations including crew and aircraft scheduling and trip logistics",
-          "Supported FBO customer’s and flight school student’s billing and scheduling needs",
+          "Supported FBO customer's and flight school student's billing and scheduling needs",
           'Helped facilitate community outreach events including the annual “flour drop" competition covered by the Milwaukee Journal Sentinel',
         ],
       },
@@ -99,3 +99,4 @@ const companies = [
 ];
 
 export { companies };
+
