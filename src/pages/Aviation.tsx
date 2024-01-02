@@ -19,7 +19,9 @@ import C172 from "../img/c172.png";
 import P28A from "../img/p28a.png";
 import Wings from "../img/wings.png";
 
-class Aviation extends React.Component {
+function Aviation {
+
+
   constructor(props) {
     super(props);
     this.state = {
@@ -34,15 +36,15 @@ class Aviation extends React.Component {
     window.scrollTo(0, 0);
   }
 
-  render() {
+
     return (
       <div>
         <Header />
-        <div class="aviation">
-          <h1 class="aviation-header">Aviation</h1>
-          <div class="line"></div>
-          <div class="aviation-intro">
-            <div class="aviation-about">
+        <div className="aviation">
+          <h1 className="aviation-header">Aviation</h1>
+          <div className="line"></div>
+          <div className="aviation-intro">
+            <div className="aviation-about">
               <p>
                 Aviation has always fascinated me. At the age of 10, I went for
                 my first introductory flight in a small general-aviation
@@ -74,21 +76,21 @@ class Aviation extends React.Component {
           </div>
           <br />
           <br />
-          <div class="subline"></div>
-          <div class="flags">
+          <div className="subline"></div>
+          <div className="flags">
             {flags.slice(0, flags.length / 2).map((flag) => {
               return (
-                <div class="flag">
+                <div className="flag">
                   <img src={flag} alt="" />
                 </div>
               );
             })}
           </div>
-          <div class="subline"></div>
-          <div class="flags">
+          <div className="subline"></div>
+          <div className="flags">
             {flags.slice(flags.length / 2, flags.length).map((flag) => {
               return (
-                <div class="flag">
+                <div className="flag">
                   <img src={flag} alt="" />
                 </div>
               );
@@ -98,39 +100,38 @@ class Aviation extends React.Component {
           <Destinations />
           <br />
           <br />
-          <div class="subline"></div>
-          <h3 class="subsection">
-            <span class="aviation-section-text">Total Time:</span>
+          <div className="subline"></div>
+          <h3 className="subsection">
+            <span className="aviation-section-text">Total Time:</span>
           </h3>
-          <div class="hours">207.2 hrs</div>
-          <h3 class="subsection">
-            <span class="aviation-subsection-text">Top-Time Aircraft:</span>
+          <div className="hours">207.2 hrs</div>
+          <h3 className="subsection">
+            <span className="aviation-subsection-text">Top-Time Aircraft:</span>
           </h3>
-          <div class="aircraft">
-            <div class="ac">
+          <div className="aircraft">
+            <div className="ac">
               <img src={C152} alt="" />
-              <span class="ac-id">Cessna 152</span>
-              <span class="subline"></span>
-              <div class="ac-hours">39.3 hrs</div>
+              <span className="ac-id">Cessna 152</span>
+              <span className="subline"></span>
+              <div className="ac-hours">39.3 hrs</div>
             </div>
-            <div class="ac">
+            <div className="ac">
               <img src={C172} alt="" />
-              <span class="ac-id">Cessna 172</span>
-              <span class="subline"></span>
-              <div class="ac-hours">74.6 hrs</div>
+              <span className="ac-id">Cessna 172</span>
+              <span className="subline"></span>
+              <div className="ac-hours">74.6 hrs</div>
             </div>
-            <div class="ac">
+            <div className="ac">
               <img src={P28A} alt="" />
-              <span class="ac-id">Piper PA-28</span>
-              <span class="subline"></span>
-              <div class="ac-hours">89.2 hrs</div>
+              <span className="ac-id">Piper PA-28</span>
+              <span className="subline"></span>
+              <div className="ac-hours">89.2 hrs</div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
     );
-  }
 }
 
 export default Aviation;

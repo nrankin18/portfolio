@@ -30,9 +30,6 @@
       }
     ],
     "curly": ["warn", "all"],
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "no-param-reassign": "off", // Redux support
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error" // Fix for enum bug: https://github.com/typescript-eslint/typescript-eslint/issues/2483
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }
